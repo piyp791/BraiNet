@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/build/intermediates/res/merged/debug/layout/first_view.xml",
+        "source": "/Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/res/layout/first_view.xml"
+    },
+    {
+        "merged": "/Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/build/intermediates/res/merged/debug/layout/listitem_device.xml",
+        "source": "/Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/res/layout/listitem_device.xml"
+    },
+    {
+        "merged": "/Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/build/intermediates/res/merged/debug/layout/main_view.xml",
+        "source": "/Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/res/layout/main_view.xml"
+    },
+    {
+        "merged": "/Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/build/intermediates/res/merged/debug/layout/bluetoothdevice_view.xml",
+        "source": "/Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/res/layout/bluetoothdevice_view.xml"
+    },
+    {
+        "merged": "/Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/build/intermediates/res/merged/debug/layout/dialog_select_device.xml",
+        "source": "/Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/res/layout/dialog_select_device.xml"
+    }
+]
