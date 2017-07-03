@@ -4,7 +4,7 @@
     android:id="@+id/AbsoluteLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ff000000"
+    android:background="#52b5bc"
     android:orientation="vertical" >
 
        <TableLayout

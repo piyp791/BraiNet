@@ -1,7 +1,0 @@
-#Fri Jun 30 17:04:24 MST 2017
-base.0=/Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_26093b1544bf69907bc01078aa065c0b7bc09a7c
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_de06d7f2537e4f5fafb360a598a4f9e849d8063f/classes.dex
-base.1=/Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_de06d7f2537e4f5fafb360a598a4f9e849d8063f
-file.0=/Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_26093b1544bf69907bc01078aa065c0b7bc09a7c/classes.dex
