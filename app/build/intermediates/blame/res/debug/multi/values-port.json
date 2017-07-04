@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "/Users/theawesomeguy/.android/build-cache/d2d54999e6039461ccd24eb69038fd9332358ffc/output/res/values-port/values-port.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 55,
+                        "endOffset": 106
+                    }
+                }
+            }
+        ]
+    }
+]

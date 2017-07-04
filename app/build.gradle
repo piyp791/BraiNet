@@ -20,4 +20,6 @@ android {
 
 dependencies {
     compile files('libs/libStreamSDK_v1.2.0.jar')
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
 }

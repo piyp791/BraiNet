@@ -12,6 +12,12 @@
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
 
     <application
         android:allowBackup="true"
@@ -39,6 +45,13 @@
         <activity
             android:name="com.neurosky.mindwavemobiledemo.UARTDemoActivity"
             android:screenOrientation="landscape" />
+        <activity android:name="com.neurosky.mindwavemobiledemo.MainActivity" />
+        <activity android:name="com.neurosky.mindwavemobiledemo.Home" />
+        <activity android:name="com.neurosky.mindwavemobiledemo.Login" />
+        <activity android:name="com.neurosky.mindwavemobiledemo.Record" />
+        <activity android:name="com.neurosky.mindwavemobiledemo.RegisterActivity" />
+        <activity android:name="com.neurosky.mindwavemobiledemo.SearchActivity" />
+        <activity android:name="com.neurosky.mindwavemobiledemo.SearchResultsActivity" />
     </application>
 
 </manifest>

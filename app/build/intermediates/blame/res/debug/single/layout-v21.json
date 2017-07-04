@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/theawesomeguy/.android/build-cache/d2d54999e6039461ccd24eb69038fd9332358ffc/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/theawesomeguy/.android/build-cache/d2d54999e6039461ccd24eb69038fd9332358ffc/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/theawesomeguy/.android/build-cache/d2d54999e6039461ccd24eb69038fd9332358ffc/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/theawesomeguy/.android/build-cache/d2d54999e6039461ccd24eb69038fd9332358ffc/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

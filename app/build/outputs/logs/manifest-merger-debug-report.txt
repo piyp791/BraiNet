@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:2:1-38:12
+ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:2:1-53:12
 	package
 		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:3:5-46
 		INJECTED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml
@@ -17,6 +17,18 @@ ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobil
 		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/theawesomeguy/.android/build-cache/d2d54999e6039461ccd24eb69038fd9332358ffc/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /Users/theawesomeguy/.android/build-cache/bdde7ce8a1af7e837c5ae0ba3d062e9cac6dd521/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/theawesomeguy/.android/build-cache/61e5f9ba78fcbda4a124d46c4c481d2d9fa6b42f/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/theawesomeguy/.android/build-cache/836ade742f510024383517d7c3533e35b6453c11/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/theawesomeguy/.android/build-cache/980b9de2d9b00564057f993640365de5b73dbaf3/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/theawesomeguy/.android/build-cache/e1f366cf08fcc359b35e6b537d86e003cb81b589/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/theawesomeguy/.android/build-cache/ed89b7b456fcec9c9939aa75d35ae323207dc14f/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/theawesomeguy/.android/build-cache/14cd6dd29b3551db628bc155984d5f3ff1c488ba/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] /Users/theawesomeguy/.android/build-cache/bc596126c611c48723ac454d353b005a409277d1/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/theawesomeguy/.android/build-cache/60209cbc23c0d01614df9625d16de4ff87e61fc8/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/theawesomeguy/.android/build-cache/d2d54999e6039461ccd24eb69038fd9332358ffc/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:9:9-38
 		INJECTED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml
@@ -26,68 +38,128 @@ ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobil
 		INJECTED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.BLUETOOTH
-ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:10:2-65
+ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:11:5-68
 	android:name
-		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:10:19-62
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:11:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:11:2-71
+ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:12:5-74
 	android:name
-		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:11:19-68
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:12:22-71
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:12:2-77
+ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:12:19-75
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:13:22-78
 uses-permission#android.permission.MOUNT_FORMAT_FILESYSTEMS
-ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:13:2-79
+ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:14:5-83
 	android:name
-		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:13:19-77
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:14:22-80
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:15:5-75
+	android:name
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:15:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:16:22-77
 application
-ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:14:5-36:19
+ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:18:5-51:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/theawesomeguy/.android/build-cache/d2d54999e6039461ccd24eb69038fd9332358ffc/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/theawesomeguy/.android/build-cache/bdde7ce8a1af7e837c5ae0ba3d062e9cac6dd521/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/theawesomeguy/.android/build-cache/61e5f9ba78fcbda4a124d46c4c481d2d9fa6b42f/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/theawesomeguy/.android/build-cache/836ade742f510024383517d7c3533e35b6453c11/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/theawesomeguy/.android/build-cache/980b9de2d9b00564057f993640365de5b73dbaf3/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/theawesomeguy/.android/build-cache/e1f366cf08fcc359b35e6b537d86e003cb81b589/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/theawesomeguy/.android/build-cache/ed89b7b456fcec9c9939aa75d35ae323207dc14f/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/theawesomeguy/.android/build-cache/14cd6dd29b3551db628bc155984d5f3ff1c488ba/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/theawesomeguy/.android/build-cache/bc596126c611c48723ac454d353b005a409277d1/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/theawesomeguy/.android/build-cache/60209cbc23c0d01614df9625d16de4ff87e61fc8/output/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:16:9-41
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:20:9-41
 	android:allowBackup
-		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:19:9-35
 	android:theme
-		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:17:9-40
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:21:9-40
 activity#com.neurosky.mindwavemobiledemo.DemoActivity
-ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:18:9-27:20
+ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:22:9-31:20
 	android:screenOrientation
-		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:20:13-49
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:25:13-49
 	android:label
-		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:21:13-45
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:24:13-45
 	android:name
-		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:19:13-72
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:23:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:22:13-26:29
+ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:23:17-69
+ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:23:25-66
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:25:17-77
+ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:25:27-74
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:29:27-74
 activity#com.neurosky.mindwavemobiledemo.BluetoothAdapterDemoActivity
-ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:28:9-29:52
+ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:32:9-34:53
 	android:screenOrientation
-		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:29:13-50
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:34:13-50
 	android:name
-		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:28:19-94
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:33:13-57
 activity#com.neurosky.mindwavemobiledemo.BluetoothDeviceDemoActivity
-ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:30:10-31:53
+ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:35:9-37:53
 	android:screenOrientation
-		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:31:14-51
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:37:13-50
 	android:name
-		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:30:20-94
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:36:13-56
 activity#com.neurosky.mindwavemobiledemo.FileDemoActivity
-ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:32:11-33:54
+ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:38:9-40:53
 	android:screenOrientation
-		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:33:15-52
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:40:13-50
 	android:name
-		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:32:21-84
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:39:13-45
 activity#com.neurosky.mindwavemobiledemo.UARTDemoActivity
-ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:34:11-35:54
+ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:41:9-43:53
 	android:screenOrientation
-		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:35:15-52
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:43:13-50
 	android:name
-		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:34:21-84
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:42:13-45
+activity#com.neurosky.mindwavemobiledemo.MainActivity
+ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:44:9-50
+	android:name
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:44:19-47
+activity#com.neurosky.mindwavemobiledemo.Home
+ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:45:9-42
+	android:name
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:45:19-39
+activity#com.neurosky.mindwavemobiledemo.Login
+ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:46:9-43
+	android:name
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:46:19-40
+activity#com.neurosky.mindwavemobiledemo.Record
+ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:47:9-44
+	android:name
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:47:19-41
+activity#com.neurosky.mindwavemobiledemo.RegisterActivity
+ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:48:9-54
+	android:name
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:48:19-51
+activity#com.neurosky.mindwavemobiledemo.SearchActivity
+ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:49:9-52
+	android:name
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:49:19-49
+activity#com.neurosky.mindwavemobiledemo.SearchResultsActivity
+ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:50:9-68
+	android:name
+		ADDED from /Users/theawesomeguy/AndroidStudioProjects/TGStreamDemo_MindWaveMobile/app/src/main/AndroidManifest.xml:50:19-56
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/theawesomeguy/.android/build-cache/d2d54999e6039461ccd24eb69038fd9332358ffc/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/theawesomeguy/.android/build-cache/bdde7ce8a1af7e837c5ae0ba3d062e9cac6dd521/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/theawesomeguy/.android/build-cache/61e5f9ba78fcbda4a124d46c4c481d2d9fa6b42f/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/theawesomeguy/.android/build-cache/836ade742f510024383517d7c3533e35b6453c11/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/theawesomeguy/.android/build-cache/980b9de2d9b00564057f993640365de5b73dbaf3/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/theawesomeguy/.android/build-cache/e1f366cf08fcc359b35e6b537d86e003cb81b589/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/theawesomeguy/.android/build-cache/ed89b7b456fcec9c9939aa75d35ae323207dc14f/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/theawesomeguy/.android/build-cache/14cd6dd29b3551db628bc155984d5f3ff1c488ba/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/theawesomeguy/.android/build-cache/bc596126c611c48723ac454d353b005a409277d1/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/theawesomeguy/.android/build-cache/d2d54999e6039461ccd24eb69038fd9332358ffc/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/theawesomeguy/.android/build-cache/d2d54999e6039461ccd24eb69038fd9332358ffc/output/AndroidManifest.xml:26:9-47
