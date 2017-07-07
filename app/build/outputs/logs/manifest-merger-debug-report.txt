@@ -1,0 +1,165 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:2:1-53:12
+	package
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:3:5-46
+		INJECTED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml
+		INJECTED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml
+		INJECTED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml
+		INJECTED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /home/peps/.android/build-cache/3dd8cac7c19777e069f6d8ecfabdd1f15d464875/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /home/peps/.android/build-cache/7574211328c9bbead9d4fe9ed56c3632e3803519/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/peps/.android/build-cache/c37d6a4793f62cc2aeb98172e688641911506703/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/peps/.android/build-cache/1e4da05665f8f82e9928bf500b1e864595753623/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/peps/.android/build-cache/f6d99feef05212b7caf7cb1b39f2ac19efa52507/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/peps/.android/build-cache/504ad127e54e1807d913e1d95ce8c8519abf3d49/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/peps/.android/build-cache/273fdc88463ceb612a8c3007c1756ea66f00ef0d/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] /home/peps/.android/build-cache/e0e98373ed46f9de6222f79d69bf272215eb0515/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/peps/.android/build-cache/586d84accf2e687980cc99a4c7c71d6a752489b4/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml
+		INJECTED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml
+		INJECTED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:11:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:12:22-71
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:13:22-78
+uses-permission#android.permission.MOUNT_FORMAT_FILESYSTEMS
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:14:5-83
+	android:name
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:14:22-80
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:15:5-75
+	android:name
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:15:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:16:22-77
+uses-permission#android.permission.INTERNET
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:17:22-64
+application
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:19:5-51:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/peps/.android/build-cache/3dd8cac7c19777e069f6d8ecfabdd1f15d464875/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/peps/.android/build-cache/7574211328c9bbead9d4fe9ed56c3632e3803519/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/peps/.android/build-cache/c37d6a4793f62cc2aeb98172e688641911506703/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/peps/.android/build-cache/1e4da05665f8f82e9928bf500b1e864595753623/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/peps/.android/build-cache/f6d99feef05212b7caf7cb1b39f2ac19efa52507/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/peps/.android/build-cache/504ad127e54e1807d913e1d95ce8c8519abf3d49/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/peps/.android/build-cache/273fdc88463ceb612a8c3007c1756ea66f00ef0d/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/peps/.android/build-cache/e0e98373ed46f9de6222f79d69bf272215eb0515/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/peps/.android/build-cache/586d84accf2e687980cc99a4c7c71d6a752489b4/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:21:9-41
+	android:allowBackup
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:22:9-40
+activity#com.neurosky.mindwavemobiledemo.activity.MainActivity
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:23:9-32:20
+	android:screenOrientation
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:26:13-49
+	android:label
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:25:13-45
+	android:name
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:24:13-50
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:30:27-74
+activity#com.neurosky.mindwavemobiledemo.activity.BluetoothAdapterDemoActivity
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:33:9-35:53
+	android:screenOrientation
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:35:13-50
+	android:name
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:34:13-66
+activity#com.neurosky.mindwavemobiledemo.activity.BluetoothDeviceDemoActivity
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:36:9-38:53
+	android:screenOrientation
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:38:13-50
+	android:name
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:37:13-65
+activity#com.neurosky.mindwavemobiledemo.activity.FileDemoActivity
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:39:9-41:53
+	android:screenOrientation
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:41:13-50
+	android:name
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:40:13-54
+activity#com.neurosky.mindwavemobiledemo.UARTDemoActivity
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:42:9-44:53
+	android:screenOrientation
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:44:13-50
+	android:name
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:43:13-45
+activity#com.neurosky.mindwavemobiledemo.activity.RegisterActivity
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:45:9-63
+	android:name
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:45:19-60
+activity#com.neurosky.mindwavemobiledemo.activity.SearchActivity
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:46:9-61
+	android:name
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:46:19-58
+activity#com.neurosky.mindwavemobiledemo.activity.LoginActivity
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:47:9-60
+	android:name
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:47:19-57
+activity#com.neurosky.mindwavemobiledemo.activity.DemoActivity
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:48:9-59
+	android:name
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:48:19-56
+activity#com.neurosky.mindwavemobiledemo.activity.HomeActivity
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:49:9-59
+	android:name
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:49:19-56
+activity#com.neurosky.mindwavemobiledemo.activity.SearchResultsActivity
+ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:50:9-77
+	android:name
+		ADDED from /home/peps/Downloads/BrainNet-kk/app/src/main/AndroidManifest.xml:50:19-65
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/peps/.android/build-cache/3dd8cac7c19777e069f6d8ecfabdd1f15d464875/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/peps/.android/build-cache/7574211328c9bbead9d4fe9ed56c3632e3803519/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/peps/.android/build-cache/c37d6a4793f62cc2aeb98172e688641911506703/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/peps/.android/build-cache/1e4da05665f8f82e9928bf500b1e864595753623/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/peps/.android/build-cache/f6d99feef05212b7caf7cb1b39f2ac19efa52507/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/peps/.android/build-cache/504ad127e54e1807d913e1d95ce8c8519abf3d49/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/peps/.android/build-cache/273fdc88463ceb612a8c3007c1756ea66f00ef0d/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/peps/.android/build-cache/e0e98373ed46f9de6222f79d69bf272215eb0515/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/AndroidManifest.xml:26:9-47

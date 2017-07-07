@@ -1,0 +1,4 @@
+#Fri Jul 07 05:24:39 MST 2017
+base.0=/home/peps/Downloads/BrainNet-kk/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4
+renamed.0=classes.dex
+file.0=/home/peps/Downloads/BrainNet-kk/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex

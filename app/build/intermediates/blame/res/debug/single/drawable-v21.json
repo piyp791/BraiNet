@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/drawable-v21/abc_edit_text_material.xml"
+    }
+]
