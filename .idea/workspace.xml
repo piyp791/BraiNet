@@ -13,138 +13,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b952b96-28bd-458c-822b-00cd2aa9daf7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_8.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_8.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/FlaskServer/DBLogs.log" afterPath="$PROJECT_DIR$/Resources/FlaskServer/DBLogs.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/FlaskServer/process_for_DTW.py" afterPath="$PROJECT_DIR$/Resources/FlaskServer/process_for_DTW.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/FlaskServer/server.py" afterPath="$PROJECT_DIR$/Resources/FlaskServer/server.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/DemoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/DemoActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/RegisterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/RegisterActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/SearchActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/SearchActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
     </list>
     <ignored path="TGStreamDemo_MindWaveMobile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -180,7 +51,7 @@
       <file leaf-file-name="DemoActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/DemoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
+            <state relative-caret-position="276">
               <caret line="780" column="82" selection-start-line="780" selection-start-column="82" selection-end-line="780" selection-end-column="82" />
               <folding>
                 <element signature="method#stop#0;class#DemoActivity#0" expanded="false" />
@@ -194,7 +65,7 @@
       <file leaf-file-name="WebRequestHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/helper/WebRequestHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-49">
+            <state relative-caret-position="255">
               <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
               <folding />
             </state>
@@ -204,7 +75,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="315">
               <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
@@ -214,7 +85,7 @@
       <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="1320">
               <caret line="134" column="65" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="65" />
               <folding />
             </state>
@@ -224,11 +95,9 @@
       <file leaf-file-name="SearchActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/SearchActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
+            <state relative-caret-position="765">
               <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-              <folding>
-                <element signature="e#9895#9903#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -236,7 +105,7 @@
       <file leaf-file-name="RegisterActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/RegisterActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
+            <state relative-caret-position="1725">
               <caret line="142" column="20" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
               <folding />
             </state>
@@ -2142,8 +2011,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2349,7 +2217,8 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2745,7 +2614,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32832617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2754,26 +2623,26 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4139785" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32832617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.249309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.249309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -3082,7 +2951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4710">
           <caret line="351" column="16" selection-start-line="351" selection-start-column="16" selection-end-line="351" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3192,7 +3060,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/helper/WebRequestHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
+        <state relative-caret-position="255">
           <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
           <folding />
         </state>
@@ -3200,7 +3068,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="315">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
@@ -3230,7 +3098,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/RegisterActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
+        <state relative-caret-position="1725">
           <caret line="142" column="20" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
           <folding />
         </state>
@@ -3238,7 +3106,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="1320">
           <caret line="134" column="65" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="65" />
           <folding />
         </state>
@@ -3246,17 +3114,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/SearchActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
+        <state relative-caret-position="765">
           <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding>
-            <element signature="e#9895#9903#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/DemoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
+        <state relative-caret-position="276">
           <caret line="780" column="82" selection-start-line="780" selection-start-column="82" selection-end-line="780" selection-end-column="82" />
           <folding>
             <element signature="method#stop#0;class#DemoActivity#0" expanded="false" />
