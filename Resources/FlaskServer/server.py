@@ -4,6 +4,7 @@ from flask import Flask
 from flask import abort, redirect, url_for
 import unicodedata
 from process_for_DTW import process_for_DTW
+from authenticateML import authenticateML
 from process_for_DTW import registerUserBrainwave
 from process_for_DTW import registerUSerInfo
 import pywt
@@ -204,7 +205,8 @@ def insert_data(data):
 def authorize_brain_wave(data, id):
 
     print 'type of data-->', type(data), type(data[0])
-    result = process_for_DTW(data, id)
+    result = authenticateML(data,id)
+    #result = process_for_DTW(data, id)
     print 'result from process_DTW->', result
     return result
 
