@@ -123,8 +123,16 @@ public class LoginActivity extends AppCompatActivity {
                         String sessionID = id + "_" + new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
                         Log.d(Constants.CUSTOM_LOG_TYPE, sessionID);
 
+                        String isAdmin = "";
+                        try {
+                            isAdmin = response.getString("is_admin");
+                            Log.d(Constants.CUSTOM_LOG_TYPE, "is admin-->"+ isAdmin);
+                        }catch(Exception ex){
+                            ex.printStackTrace();
+                        }
                         enterIntent = new Intent(LoginActivity.this, HomeActivity.class);
                         enterIntent.putExtra(Constants.INTENT_KEY, Constants.LOGIN_INTENT);
+                        enterIntent.putExtra("ISADMIN", isAdmin);
                         enterIntent.putExtra("ID", id);
                         enterIntent.putExtra("SESSIONID", sessionID);
                         startActivity(enterIntent);

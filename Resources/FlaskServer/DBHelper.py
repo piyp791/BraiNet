@@ -104,12 +104,15 @@ class DBHelper:
      #      
      def fetchFromWhere(self, tablename, condExpr, cnx):
          select_user = ("SELECT * FROM " +tablename + " WHERE " + condExpr)
+         print 'select user query->', select_user
          cursor = cnx.cursor(buffered=True)
          try:
             cursor.execute(select_user)
             print ("Data Fetching successful")
             return cursor
-         except:
+         except Exception as e:
+            print e
+            traceback.print_exc()
             print ("Data Fetching failed!!!")
             return cursor
 
@@ -125,6 +128,20 @@ class DBHelper:
             print ("Data Fetching failed!!!")
          return cursor
          cursor.close()
+
+     def fetchColFromWhere(self, tablename, colName, condExpr, cnx):
+         select_user = ("SELECT " + colName + " FROM " +tablename + " WHERE " + condExpr)
+         print 'select user query->', select_user
+         cursor = cnx.cursor(buffered=True)
+         try:
+            cursor.execute(select_user)
+            print ("Data Fetching successful")
+            return cursor
+         except Exception as e:
+            print e
+            traceback.print_exc()
+            print ("Data Fetching failed!!!")
+            return cursor
 # 
      # Helper method for a specific column fetching from a tablebased
      # condExpr takes series of conditions joined by logical operators
@@ -196,6 +213,8 @@ class NumpyMySQLConverter(mysql.connector.conversion.MySQLConverter):
 
     def _int64_to_mysql(self, value):
         return int(value)
+
+
 
 
 if __name__ == '__main__':

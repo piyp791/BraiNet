@@ -22,6 +22,7 @@ public class HomeActivity extends AppCompatActivity {
 
     String userId;
     String sessionId;
+    String isAdmin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,8 +38,10 @@ public class HomeActivity extends AppCompatActivity {
         final String useIntent = intent.getStringExtra(Constants.INTENT_KEY);
         userId = intent.getStringExtra("ID");
         sessionId = intent.getStringExtra("SESSIONID");
+        isAdmin = intent.getStringExtra("ISADMIN");
         Log.d(Constants.CUSTOM_LOG_TYPE, "user id->" +userId);
         Log.d(Constants.CUSTOM_LOG_TYPE, "session id->" +sessionId);
+        Log.d(Constants.CUSTOM_LOG_TYPE, "is admin->" +isAdmin);
         Log.d(Constants.CUSTOM_LOG_TYPE, "intent->" +useIntent);
 
         //set welcome text
@@ -69,6 +72,7 @@ public class HomeActivity extends AppCompatActivity {
                 searchIntent = new Intent(HomeActivity.this, SearchActivity.class);
                 searchIntent.putExtra("ID", userId);
                 searchIntent.putExtra("SESSIONID", sessionId);
+                searchIntent.putExtra("ISADMIN", isAdmin);
                 startActivity(searchIntent);
             }
         });

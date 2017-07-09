@@ -1,4 +1,4 @@
-#Thu Jul 06 14:27:40 MST 2017
+#Fri Jul 07 16:22:05 MST 2017
 file.2=/home/peps/Downloads/BrainNet-kk/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_133d4c979564c54f7c1fe874d968c245ac37e600/classes.dex
 base.2=/home/peps/Downloads/BrainNet-kk/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_133d4c979564c54f7c1fe874d968c245ac37e600
 file.1=/home/peps/Downloads/BrainNet-kk/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6a8467e2081ab9fc13e399fd5987c255e63aac53/classes.dex

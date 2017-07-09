@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.loopj.android.http.JsonHttpResponseHandler;
@@ -29,6 +30,11 @@ public class SearchResultsActivity extends AppCompatActivity {
     private LinearLayout wave_layout;
     DrawWaveView waveView = null;
     String data = "";
+    String userInfo = "";
+    TextView name;
+    TextView id;
+    TextView age;
+    TextView gender;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,9 +42,40 @@ public class SearchResultsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_search_results);
 
         wave_layout = (LinearLayout) findViewById(R.id.result_wave_layout);
+        name = (TextView)findViewById(R.id.search_result_name);
+        id = (TextView)findViewById(R.id.search_result_id);
+        age = (TextView)findViewById(R.id.search_result_age);
+        gender = (TextView)findViewById(R.id.search_result_gender);
 
         Intent intent = getIntent();
         data = intent.getStringExtra("DATA");
+        userInfo = intent.getStringExtra("USERINFO");
+
+        JSONArray userInfoAr = null;
+        try {
+            userInfoAr = new JSONArray(userInfo);
+        }catch(Exception ex){
+            ex.printStackTrace();
+        }
+
+        String idStr = null;
+        String nameStr = null;
+        String genderStr = null;
+        String ageStr = null;
+        try {
+            idStr = userInfoAr.getString(0);
+            nameStr = userInfoAr.getString(1);
+            genderStr = userInfoAr.getString(2);
+            ageStr = userInfoAr.getString(3);
+        }catch(Exception ex){
+            ex.printStackTrace();
+        }
+        id.setText(idStr);
+        name.setText(nameStr);
+        age.setText(ageStr);
+        gender.setText(genderStr);
+
+        Log.d(Constants.CUSTOM_LOG_TYPE, "user info -->"+ userInfo);
 
         setUpDrawWaveView();
 
@@ -121,19 +158,19 @@ public class SearchResultsActivity extends AppCompatActivity {
             }catch(Exception ex){
                 ex.printStackTrace();
             }
+            int count = 0;
             for(int i=0;i<arr.length();i++){
                 try {
                     updateWaveView(arr.getInt(i));
+                    count++;
                 }catch(Exception ex){
                     ex.printStackTrace();
                 }
             }
+            Log.d(Constants.CUSTOM_LOG_TYPE, "length of data->" + String.valueOf(count));
 
         }
 
-
-
     }
-
 
 }

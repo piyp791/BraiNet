@@ -166,7 +166,7 @@ public class DemoActivity extends Activity {
 					}
 				};
 				final ScheduledFuture<?> handle =
-						scheduler.scheduleAtFixedRate(task, 1, 15, TimeUnit.SECONDS);
+						scheduler.scheduleAtFixedRate(task, 1, 120, TimeUnit.SECONDS);
 				scheduler.schedule(new Runnable() {
 					public void run() {
 						System.out.println("function stopped?"+System.currentTimeMillis());
@@ -175,9 +175,37 @@ public class DemoActivity extends Activity {
 							tgStreamReader.stop();
 						}
 
+
+						if(Utils.validateData(dataObj)){
+
+							//send data to the server
+							JSONObject inpJson = Utils.processData(dataObj, useIntent);
+							try {
+								inpJson.put("ID", userID);
+								inpJson.put("SESSIONID", sessionID);
+							}catch(Exception ex){
+								ex.printStackTrace();
+							}
+							//webRequestHelper.doPost(inpJson.toString());
+							final AuthenticateBrainWaveTask insertDataTask = new AuthenticateBrainWaveTask(DemoActivity.this);
+							try {
+								insertDataTask.execute(inpJson.toString(), useIntent);
+
+							} catch (Exception ex) {
+								ex.printStackTrace();
+							}
+
+
+						}else{
+							//data not valid!!!!
+							//data not to be sent to the server
+							//throw pop pop up
+							showToast("Data not validated", Toast.LENGTH_SHORT);
+						}
+
 						Log.d(Constants.CUSTOM_LOG_TYPE, dataObj.getdataList().toString());
 					}
-				}, 15, SECONDS);
+				}, 120, SECONDS);
 
 			}
 		});
@@ -317,13 +345,13 @@ public class DemoActivity extends Activity {
 	// (2) demo of drawing ECG, update view
 	public void updateWaveView(int data) {
 		if (waveView != null) {
-			waveView.updateData(data);
+			//waveView.updateData(data);
 
             //Modification : PP-> save this data in the
             dataObj.addData(data);
 		}
 
-		Log.d(Constants.CUSTOM_LOG_TYPE, "update view");
+		//Log.d(Constants.CUSTOM_LOG_TYPE, "update view");
 	}
 	private int currentState = 0;
 	private TgStreamHandler callback = new TgStreamHandler() {
@@ -400,7 +428,7 @@ public class DemoActivity extends Activity {
 			LinkDetectedHandler.sendMessage(msg);
 			//Log.i(TAG,"onDataReceived");
 
-			Log.d(Constants.CUSTOM_LOG_TYPE, "on data received");
+			//Log.d(Constants.CUSTOM_LOG_TYPE, "on data received");
 		}
 
 	};

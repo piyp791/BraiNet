@@ -53,7 +53,7 @@ public class RegisterActivity extends AppCompatActivity {
             public void onCheckedChanged(RadioGroup group, @IdRes int checkedId) {
 
             //gender has been selected, do your thing
-            if (genderGrp.getCheckedRadioButtonId() == 0) {
+            if (genderGrp.getCheckedRadioButtonId() == R.id.register_maleBtn) {
                 maleOrFemale = "m";
             } else {
                 maleOrFemale = "f";
