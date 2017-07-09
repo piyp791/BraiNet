@@ -157,7 +157,7 @@ public class RegisterActivity extends AppCompatActivity {
                         String sessionID = userId + "_" + new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
                         Log.d(Constants.CUSTOM_LOG_TYPE, sessionID);
 
-                        enterIntent = new Intent(RegisterActivity.this, HomeActivity.class);
+                        enterIntent = new Intent(RegisterActivity.this, DemoActivity.class);
                         enterIntent.putExtra(Constants.INTENT_KEY, Constants.REGISTER_INTENT);
                         enterIntent.putExtra("ID", userId);
                         enterIntent.putExtra("SESSIONID", sessionID);

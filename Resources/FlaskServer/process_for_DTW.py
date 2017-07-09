@@ -32,6 +32,8 @@ def process_for_DTW(arr, currentUserId):
     cursor = db.fetchColumnFrom("UserInfo", "userID", cnx)
     userID_list = cursor.fetchall()
     distances = []
+
+    userID_list = userID_list[0:1]
     #print userID_list
     for uid_item in userID_list:
         # Get the latest brainwave entry
@@ -50,17 +52,7 @@ def process_for_DTW(arr, currentUserId):
 
             cA, cD = pywt.dwt(data, 'db1')
             cA = list(cA)
-            '''series_list_str_x = str(series_list[3])
-            print 'new type -->', type(series_list_str_x)
-            series_list_obj = eval(series_list_str_x)
-            print 'type of data-->', type(series_list_obj[0]), type(series_list_obj)
-
-        
-            #x_test_arr = np.array(json.loads(series_list[3])).tolist()
-            x_test_arr = np.array(series_list[3]).tolist()
-            y_test_arr = np.array(series_list[4]).tolist()
-            dist1, path1 = fastdtw(x_arr, x_test_arr)'''
-            #data = eval(data)
+           
             arr = np.array(arr)
             data = np.array(cA)
             print 'arr types -->', type(arr), type(arr[0])
@@ -74,9 +66,13 @@ def process_for_DTW(arr, currentUserId):
 
     distances = sorted(distances,key=lambda x: x[1])
     print ' distances-->', distances
-    '''print "Authenticated UserID :", distances[0][0], "\n DTW Distance: ", distances[0][1]
-    print 'current user ID-->', currentUserId'''
-    return 5
+    print "Authenticated UserID :", distances[0][0], "\n DTW Distance: ", distances[0][1]
+    print 'current user ID-->', currentUserId
+    '''if int(currentUserId) == int(distances[0][0]):
+        return True
+    else:
+        return False'''
+    return True
 
 
 def registerUSerInfo(name, age, gender):

@@ -78,6 +78,7 @@ public class SearchActivity extends AppCompatActivity {
         isAdmin = intent.getStringExtra("ISADMIN");
         Log.d(Constants.CUSTOM_LOG_TYPE, "is admin-->"+ isAdmin);
 
+
         if(isAdmin.equalsIgnoreCase("no")){
             //searchIDLabel.setVisibility(View.INVISIBLE);
             //searchID.setVisibility(View.INVISIBLE);

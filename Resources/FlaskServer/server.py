@@ -44,8 +44,11 @@ def sendWave(jsonStr):
         #should authorize
         #call dtw method
         
-        user_id = authorize_brain_wave(arr, id)
-        result['ID'] = user_id    
+        is_authorized = authorize_brain_wave(arr, id)
+        if is_authorized == True:
+            result['is_authorized'] = True
+        else:
+            result['is_authorized'] = False
 
     elif intent == 'REGISTER':
         print 'register intent'

@@ -130,7 +130,7 @@ public class LoginActivity extends AppCompatActivity {
                         }catch(Exception ex){
                             ex.printStackTrace();
                         }
-                        enterIntent = new Intent(LoginActivity.this, HomeActivity.class);
+                        enterIntent = new Intent(LoginActivity.this, DemoActivity.class);
                         enterIntent.putExtra(Constants.INTENT_KEY, Constants.LOGIN_INTENT);
                         enterIntent.putExtra("ISADMIN", isAdmin);
                         enterIntent.putExtra("ID", id);

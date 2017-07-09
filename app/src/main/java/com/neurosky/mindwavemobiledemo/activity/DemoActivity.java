@@ -72,6 +72,8 @@ public class DemoActivity extends Activity {
 	String userID = "";
 	String resultID = "";
 	String sessionID = "";
+	Intent searchIntent;
+	String isAdmin;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -86,6 +88,8 @@ public class DemoActivity extends Activity {
 		userID = intent.getStringExtra("ID");
 		Log.d(Constants.CUSTOM_LOG_TYPE, "user ID->" +userID);
 
+		isAdmin = intent.getStringExtra("ISADMIN");
+		Log.d(Constants.CUSTOM_LOG_TYPE, "isAdmin->" +isAdmin);
 		sessionID = intent.getStringExtra("SESSIONID");
 		Log.d(Constants.CUSTOM_LOG_TYPE, "session ID->" +sessionID);
 
@@ -745,20 +749,44 @@ public class DemoActivity extends Activity {
 					}
 					if(status.equals("success")){
 
+						String is_authorized = "";
 						//check if valid brainwave
 						if(intent.equalsIgnoreCase(Constants.LOGIN_INTENT)){
 							try {
-								resultID = response.getString("ID");
+								//resultID = response.getString("ID");
+								is_authorized = response.getString("is_authorized");
 							}catch(Exception ex){
 								ex.printStackTrace();
 							}
+							if(is_authorized.equalsIgnoreCase("True")){
+								//redirect to next page
+								searchIntent = new Intent(DemoActivity.this, SearchActivity.class);
+								searchIntent.putExtra("ID", userID);
+								searchIntent.putExtra("ISADMIN", isAdmin);
+								searchIntent.putExtra("SESSIONID", sessionID);
+								startActivity(searchIntent);
+
+							}else{
+								//stay on this page
+								DemoActivity.this.runOnUiThread(new Runnable() {
+									public void run() {
+										Toast.makeText(DemoActivity.this.getBaseContext(), "Not authorized!!", Toast.LENGTH_LONG).show();
+									}
+								});
+							}
+						}else{
+
+							Log.d(Constants.CUSTOM_LOG_TYPE, "preparing to Fire up the search activity");
+							Log.d(Constants.CUSTOM_LOG_TYPE, userID+ " " + isAdmin + " " + sessionID);
+							searchIntent = new Intent(DemoActivity.this, SearchActivity.class);
+							searchIntent.putExtra("ID", userID);
+							searchIntent.putExtra("ISADMIN", "no");
+							searchIntent.putExtra("SESSIONID", sessionID);
+							startActivity(searchIntent);
+
 						}
 
-						DemoActivity.this.runOnUiThread(new Runnable() {
-							public void run() {
-								Toast.makeText(DemoActivity.this.getBaseContext(), "Result ID:::" + resultID, Toast.LENGTH_LONG).show();
-							}
-						});
+
 
 					}else{
 
@@ -780,6 +808,7 @@ public class DemoActivity extends Activity {
 
 
 		}
+
 
 	}
 }
