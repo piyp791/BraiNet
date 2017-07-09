@@ -60,6 +60,8 @@ public class LoginActivity extends AppCompatActivity {
         id = (EditText) findViewById(R.id.login_idEdit);
         enterBtn = (Button)findViewById(R.id.enter);
 
+        id.setText("");
+
          /*button listeners*/
         /*listener for enter button*/
         enterBtn.setOnClickListener(new View.OnClickListener()
@@ -84,6 +86,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
         private Context context;
+        private boolean doLogin = false;
 
         public ValidateIDTask(Context context) {
             this.context = context;
@@ -93,55 +96,64 @@ public class LoginActivity extends AppCompatActivity {
         @Override
         protected String doInBackground(String... param) {
 
-            final String id = param[0];
-            String intent = param[1];
+            if(doLogin==true){
 
-            JSONObject jsonObj = new JSONObject();
-            try{
-                jsonObj.put("ID", id);
-                jsonObj.put(Constants.INTENT_KEY, intent);
-            }catch(Exception ex){
-                ex.printStackTrace();
-            }
+                final String id = param[0];
+                String intent = param[1];
 
-            //JSONObject resultJSON = webRequestHelper.doGet(jsonObject.toString());
-            WebRequestHelper.get("/validateID/ " +jsonObj.toString(), null, new JsonHttpResponseHandler() {
-                @Override
-                public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
-                    // If the response is JSONObject instead of expected JSONArray
-                    Log.d(Constants.CUSTOM_LOG_TYPE, response.toString());
+                JSONObject jsonObj = new JSONObject();
+                try{
+                    jsonObj.put("ID", id);
+                    jsonObj.put(Constants.INTENT_KEY, intent);
+                }catch(Exception ex){
+                    ex.printStackTrace();
+                }
 
-                    //open HomeScreen Activity
-                    String status = "";
-                    try {
-                        status = response.getString("status");
-                    }catch(Exception ex){
-                        ex.printStackTrace();
-                    }
-                    if(status.equals("success")){
+                //JSONObject resultJSON = webRequestHelper.doGet(jsonObject.toString());
+                WebRequestHelper.get("/validateID/ " +jsonObj.toString(), null, new JsonHttpResponseHandler() {
+                    @Override
+                    public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
+                        // If the response is JSONObject instead of expected JSONArray
+                        Log.d(Constants.CUSTOM_LOG_TYPE, response.toString());
 
-                        String sessionID = id + "_" + new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
-                        Log.d(Constants.CUSTOM_LOG_TYPE, sessionID);
-
-                        String isAdmin = "";
+                        //open HomeScreen Activity
+                        String status = "";
                         try {
-                            isAdmin = response.getString("is_admin");
-                            Log.d(Constants.CUSTOM_LOG_TYPE, "is admin-->"+ isAdmin);
+                            status = response.getString("status");
                         }catch(Exception ex){
                             ex.printStackTrace();
                         }
-                        enterIntent = new Intent(LoginActivity.this, DemoActivity.class);
-                        enterIntent.putExtra(Constants.INTENT_KEY, Constants.LOGIN_INTENT);
-                        enterIntent.putExtra("ISADMIN", isAdmin);
-                        enterIntent.putExtra("ID", id);
-                        enterIntent.putExtra("SESSIONID", sessionID);
-                        startActivity(enterIntent);
-                    }else{
-                        Toast.makeText(LoginActivity.this, "Invalid ID", Toast.LENGTH_SHORT).show();
-                    }
+                        if(status.equals("success")){
 
-                }
-            });
+                            String sessionID = id + "_" + new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
+                            Log.d(Constants.CUSTOM_LOG_TYPE, sessionID);
+
+                            String isAdmin = "";
+                            try {
+                                isAdmin = response.getString("is_admin");
+                                Log.d(Constants.CUSTOM_LOG_TYPE, "is admin-->"+ isAdmin);
+                            }catch(Exception ex){
+                                ex.printStackTrace();
+                            }
+                            enterIntent = new Intent(LoginActivity.this, DemoActivity.class);
+                            enterIntent.putExtra(Constants.INTENT_KEY, Constants.LOGIN_INTENT);
+                            enterIntent.putExtra("ISADMIN", isAdmin);
+                            enterIntent.putExtra("ID", id);
+                            enterIntent.putExtra("SESSIONID", sessionID);
+                            startActivity(enterIntent);
+                        }else{
+                            LoginActivity.this.runOnUiThread(new Runnable() {
+                                public void run() {
+                                    Toast.makeText(LoginActivity.this.getBaseContext(), "Invalid ID!!!", Toast.LENGTH_LONG).show();
+                                }
+                            });
+                        }
+
+                    }
+                });
+
+            }
+
             return "";
         }
 
@@ -155,6 +167,9 @@ public class LoginActivity extends AppCompatActivity {
             if(idVal==null || idVal.isEmpty()){
                 Log.d(Constants.CUSTOM_LOG_TYPE, "Empty ID" + idVal);
                 Toast.makeText(LoginActivity.this, "Enter ID first", Toast.LENGTH_SHORT).show();
+
+            }else{
+                doLogin = true;
             }
 
         }

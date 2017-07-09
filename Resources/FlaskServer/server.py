@@ -32,9 +32,7 @@ def sendWave(jsonStr):
     arr = eval(data)
     print arr
     id = json_obj['ID']
-
-    sessionId = json_obj['SESSIONID']
-    print 'data for session id-->', sessionId
+   
     result = {}
 
     #cA, cD = pywt.dwt(arr, 'db1')
@@ -96,7 +94,6 @@ def validateID(jsonStr):
 
         else:
             result['status'] = 'failure'        
-    
     else:
         result['status'] = 'failure'
     result_data = json.dumps(result)
@@ -113,7 +110,9 @@ def search(jsonStr):
     json_obj = parse_data(jsonStr)
     #authorize user id
     id = json_obj['ID']
-    data = search(id)
+    sessionid = json_obj['SESSIONID']
+
+    data = search(id, sessionid)
     if data == False:
         result['status'] = 'failure'
     else:
@@ -193,7 +192,17 @@ def process_data(jsonStr):
 
 def authorize_user_id(id):
 
-    return True
+    db = DBHelper()
+    cnx = db.getConn()
+    cnx.set_converter_class(NumpyMySQLConverter)
+
+    condExpr = 'ID = ' + str(id)
+    cursor = db.fetchFromWhere("UBrainData", condExpr, cnx)
+    if cursor.rowcount != 0:
+        return True
+    else:
+        return False;
+
 
 def insert_data(data):
     name = data["NAME"]
@@ -210,13 +219,13 @@ def authorize_brain_wave(data, id):
     print 'result from process_DTW->', result
     return result
 
-def search(id):
+def search(id, sessionid):
 
     db = DBHelper()
     cnx = db.getConn()
     cnx.set_converter_class(NumpyMySQLConverter)
 
-    condExpr = 'ID = ' + str(id)
+    condExpr = 'ID = ' + str(id) + ' AND SESSIONID = ' + str(sessionid)
     cursor = db.fetchFromWhere("UBrainData", condExpr, cnx)
     if cursor.rowcount != 0:
         series_list = cursor.fetchall()

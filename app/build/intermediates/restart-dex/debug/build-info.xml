@@ -6,33 +6,26 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1499584797450"
+    timestamp="1499629059111"
     token="5961967421723176932"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="91" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="4" />
+        duration="0" />
     <task
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="/home/peps/Downloads/BrainNet-kk/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/peps/Downloads/BrainNet-kk/app/build/outputs/apk/app-debug.apk"
-        type="SPLIT_MAIN" />
-
     <build
         build-mode="FULL"
-        timestamp="1499583248418"
+        timestamp="1499628354473"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/peps/Downloads/BrainNet-kk/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
@@ -73,15 +66,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1499584726352"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/peps/Downloads/BrainNet-kk/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1499584797450"
+        timestamp="1499628450847"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/peps/Downloads/BrainNet-kk/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
@@ -90,5 +75,9 @@
             location="/home/peps/Downloads/BrainNet-kk/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
+    <build
+        build-mode="COLD"
+        timestamp="1499629059111"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

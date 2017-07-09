@@ -1,4 +1,4 @@
-#Sat Jul 08 20:10:10 MST 2017
+#Sun Jul 09 01:07:48 MST 2017
 base.0=/home/peps/Downloads/BrainNet-kk/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0d5d22dd5cee62abf8df6b2db7348ad3c7760981
 renamed.1=classes2.dex
 renamed.0=classes.dex

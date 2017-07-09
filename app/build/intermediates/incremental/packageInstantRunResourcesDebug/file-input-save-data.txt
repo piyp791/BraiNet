@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Jul 08 20:10:07 MST 2017
+#Sun Jul 09 01:07:48 MST 2017
 14.set=ANDROID_RESOURCE
 180.file=/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_login.xml
 118.set=ANDROID_RESOURCE

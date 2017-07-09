@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -32,7 +33,9 @@ import java.util.Objects;
 
 import cz.msebera.android.httpclient.Header;
 
-public class SearchActivity extends AppCompatActivity {
+import static android.support.constraint.R.id.parent;
+
+public class SearchActivity extends AppCompatActivity{
 
     Button searchBtn;
     Button fetchSessionBtn;
@@ -53,6 +56,7 @@ public class SearchActivity extends AppCompatActivity {
     Spinner searchSessionList;
     String[] strSessionList;
     String userInfo;
+    String sessionIDSelected;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,6 +83,10 @@ public class SearchActivity extends AppCompatActivity {
         Log.d(Constants.CUSTOM_LOG_TYPE, "is admin-->"+ isAdmin);
 
 
+        searchID.setText("");
+        searchAge.setText("");
+        searchName.setText("");
+
         if(isAdmin.equalsIgnoreCase("no")){
             //searchIDLabel.setVisibility(View.INVISIBLE);
             //searchID.setVisibility(View.INVISIBLE);
@@ -100,6 +108,10 @@ public class SearchActivity extends AppCompatActivity {
                         JSONArray userInfoArr = new JSONArray(userInfo);
                         Log.d(Constants.CUSTOM_LOG_TYPE, "User ID-->" +userInfoArr.getString(0));
                         jsonObject.put("ID", userInfoArr.getString(0));
+
+
+                        sessionIDSelected = searchSessionList.getSelectedItem().toString();
+                        jsonObject.put("SESSIONID", sessionIDSelected);
                     }
 
 
@@ -136,7 +148,6 @@ public class SearchActivity extends AppCompatActivity {
             }
         });
 
-
         searchGender.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, @IdRes int checkedId) {
@@ -149,6 +160,11 @@ public class SearchActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+
+    private String restoreSessionID(String modifiedSessionID){
+        return "";
     }
 
     private class SearchTask extends AsyncTask<String, Integer, String> {
@@ -271,11 +287,10 @@ public class SearchActivity extends AppCompatActivity {
                         userInfo = userData.getJSONArray("userInfo").toString();
                         strSessionList = new String[sessionIDList.length()];
                         for(int i=0;i<sessionIDList.length();i++){
-                            strSessionList[i] = sessionIDList.getString(i);
+                            strSessionList[i] = formatSessionStr(sessionIDList.getString(i));
                         }
 
                         //populate spinner
-
                         SearchActivity.this.runOnUiThread(new Runnable() {
                             public void run() {
                                 ArrayAdapter<String> adapter = new ArrayAdapter<String>(SearchActivity.this, android.R.layout.simple_spinner_dropdown_item, strSessionList);
@@ -298,6 +313,16 @@ public class SearchActivity extends AppCompatActivity {
             }
         }
 
+        private String formatSessionStr(String sessionID){
+
+            int firstIndex = sessionID.indexOf('_');
+            int secondIndex = sessionID.indexOf('_', firstIndex + 1);
+            Log.d(Constants.CUSTOM_LOG_TYPE, "sessoinID->"+ sessionID + " first index->" + firstIndex + " second index-->" + secondIndex);
+            String newSessionID = sessionID.substring(firstIndex+1, secondIndex);
+            newSessionID = newSessionID.substring(0,4) + "-" + newSessionID.substring(4,6) + "-" + newSessionID.substring(6);
+            //return newSessionID;
+            return sessionID;
+        }
         private void doProcessSearchForID(JSONObject response){
             //open HomeScreen Activity
             String status = "";
