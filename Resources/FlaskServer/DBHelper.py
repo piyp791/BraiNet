@@ -161,16 +161,17 @@ class DBHelper:
      # Returns 1 if admin, returns 0 if not an admin
      #      
      def checkIfAdmin(self, userId, cnx):
-        select_user = ("SELECT * FROM AdminInfo")
+        select_user = ("SELECT * FROM AdminInfo WHERE AdminID = " + str(userId))
+        print 'admin user query->', select_user
         cursor = cnx.cursor()
         try:
             cursor.execute(select_user)
-            adminId = cursor.fetchone()[0]
-            #print adminId
-            if userId == adminId:
+            print 'admin check row count->', cursor.rowcount
+            if cursor.rowcount !=-1:
                 return 1
             else:
                 return 0
+           
         except:
             print ("Data Fetching failed!!!")
         cursor.close()

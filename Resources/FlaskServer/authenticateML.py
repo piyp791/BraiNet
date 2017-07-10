@@ -187,18 +187,18 @@ def main():
 def authenticateML(data, id):
     db = DBHelper()
     cnx = db.getConn()
-    
+     
     # Fetch training data
-    cursor= db.fetchColumnFromWhere("UBrainData", "data", "ID = " + id, cnx)
+    cursor= db.fetchColFromWhere("UBrainData", "data", "ID = " + id, cnx)
     DBdata = cursor.fetchall()
     f = int(len(DBdata) / 512)
     DBdata = DBdata[0:512*f]
     DBdata = np.asarray(DBdata).reshape(len(DBdata))
     train_size = len(DBdata)/512    
-    featureVectors_train = featureVecs(data, train_size)
-    
-    f = int(len(DBdata) / 512)
-    DBdata = DBdata[0:512*f]
+    featureVectors_train = featureVecs(DBdata, train_size)
+     
+    f = int(len(data) / 512)
+    data = data[0:512*f]
     data = np.asarray(data).reshape(len(data))
     test_size = len(data)/512    
     featureVectors_test = featureVecs(data, test_size)

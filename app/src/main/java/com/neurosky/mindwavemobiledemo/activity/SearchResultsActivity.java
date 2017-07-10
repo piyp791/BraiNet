@@ -99,7 +99,7 @@ public class SearchResultsActivity extends AppCompatActivity {
         waveView = new DrawWaveView(getApplicationContext());
         wave_layout.addView(waveView, new ViewGroup.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
-        waveView.setValue(9999, 9999, -9999);
+        waveView.setValue(15000, 15000, -15000);
     }
 
     public void updateWaveView(int data) {

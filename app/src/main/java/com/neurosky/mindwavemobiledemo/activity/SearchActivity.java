@@ -57,6 +57,7 @@ public class SearchActivity extends AppCompatActivity{
     String[] strSessionList;
     String userInfo;
     String sessionIDSelected;
+    String nonAdminUserData;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,15 +82,21 @@ public class SearchActivity extends AppCompatActivity{
         Intent intent = getIntent();
         isAdmin = intent.getStringExtra("ISADMIN");
         Log.d(Constants.CUSTOM_LOG_TYPE, "is admin-->"+ isAdmin);
-
+        nonAdminUserData = intent.getStringExtra("USERDATA");
 
         searchID.setText("");
         searchAge.setText("");
         searchName.setText("");
 
         if(isAdmin.equalsIgnoreCase("no")){
-            //searchIDLabel.setVisibility(View.INVISIBLE);
-            //searchID.setVisibility(View.INVISIBLE);
+            searchIDLabel.setVisibility(View.INVISIBLE);
+            searchID.setVisibility(View.INVISIBLE);
+            searchNameLabel.setVisibility(View.INVISIBLE);
+            searchName.setVisibility(View.INVISIBLE);
+            searchAgeLabel.setVisibility(View.INVISIBLE);
+            searchAge.setVisibility(View.INVISIBLE);
+            searchGenderLabel.setVisibility(View.INVISIBLE);
+            searchGender.setVisibility(View.INVISIBLE);
         }
 
          /*button listeners*/
@@ -221,45 +228,66 @@ public class SearchActivity extends AppCompatActivity{
                 //else, searched on the basis of just name, age and gender
                 // if name, age and gender are not filled, then search just on the base of ID
                 //check if name age gender filled
-                dataObj = new JSONObject();
-                String id = searchID.getText().toString();
-                String name = searchName.getText().toString();
-                int age = 0;
-                if(!searchAge.getText().toString().isEmpty()){
-                    age = Integer.parseInt(searchAge.getText().toString());
+                if(isAdmin.equalsIgnoreCase("NO")){
+                    JSONArray userInfoJSon = null;
+                    try {
+                        userInfoJSon = new JSONArray(nonAdminUserData);
+                    }catch(Exception ex){
+                        ex.printStackTrace();
+                    }
+
+                    dataObj = new JSONObject();
+                    try{
+                        dataObj.put("ID", userInfoJSon.getString(0));
+                        dataObj.put("NAME", userInfoJSon.getString(1));
+                        dataObj.put("GENDER", userInfoJSon.getString(2));
+                        dataObj.put("AGE", userInfoJSon.getString(3));
+                    }catch(Exception ex){
+                        ex.printStackTrace();
+                    }
+                }else if(isAdmin.equalsIgnoreCase("Yes")){
+
+                    dataObj = new JSONObject();
+                    String id = searchID.getText().toString();
+                    String name = searchName.getText().toString();
+                    int age = 0;
+                    if(!searchAge.getText().toString().isEmpty()){
+                        age = Integer.parseInt(searchAge.getText().toString());
+                    }
+
+                    String gender = "f";
+
+                    //check which field has been filled
+                    if(name!=null && !name.isEmpty()){
+                        try {
+                            dataObj.put("NAME", name);
+                        }catch (Exception ex){
+                            ex.printStackTrace();
+                        }
+                    }
+                    if(age!=0){
+                        try {
+                            dataObj.put("AGE", age);
+                        }catch (Exception ex){
+                            ex.printStackTrace();
+                        }
+                    }
+                    if(gender!=null && !gender.isEmpty()){
+                        try {
+                            dataObj.put("GENDER", gender);
+                        }catch (Exception ex){
+                            ex.printStackTrace();
+                        }
+                    }
+                    if(id!=null && !id.isEmpty()){
+                        try {
+                            dataObj.put("ID", id);
+                        }catch (Exception ex){
+                            ex.printStackTrace();
+                        }
+                    }
                 }
 
-                String gender = "f";
-
-                //check which field has been filled
-                if(name!=null && !name.isEmpty()){
-                    try {
-                        dataObj.put("NAME", name);
-                    }catch (Exception ex){
-                        ex.printStackTrace();
-                    }
-                }
-                if(age!=0){
-                    try {
-                        dataObj.put("AGE", age);
-                    }catch (Exception ex){
-                        ex.printStackTrace();
-                    }
-                }
-                if(gender!=null && !gender.isEmpty()){
-                    try {
-                        dataObj.put("GENDER", gender);
-                    }catch (Exception ex){
-                        ex.printStackTrace();
-                    }
-                }
-                if(id!=null && !id.isEmpty()){
-                    try {
-                        dataObj.put("ID", id);
-                    }catch (Exception ex){
-                        ex.printStackTrace();
-                    }
-                }
             }
             return dataObj;
         }

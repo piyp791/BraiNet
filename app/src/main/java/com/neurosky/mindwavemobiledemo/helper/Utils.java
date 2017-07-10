@@ -60,7 +60,7 @@ public class Utils {
 		if(dataObj==null || dataObj.getdataList()==null || dataObj.getdataList().isEmpty()){
 
 			dataList = new ArrayList<>();
-			 for(int i=0;i<200;i++){
+			 for(int i=0;i<13648;i++){
 				 dataList.add((int)Math.random()*100 + i);
 			 }
 		}else{

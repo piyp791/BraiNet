@@ -39,6 +39,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.lang.reflect.Method;
@@ -751,6 +752,7 @@ public class DemoActivity extends Activity {
 
 						String is_authorized = "";
 						//check if valid brainwave
+						JSONArray userInfo = null;
 						if(intent.equalsIgnoreCase(Constants.LOGIN_INTENT)){
 							try {
 								//resultID = response.getString("ID");
@@ -759,12 +761,24 @@ public class DemoActivity extends Activity {
 								ex.printStackTrace();
 							}
 							if(is_authorized.equalsIgnoreCase("True")){
+
+
+								try {
+									userInfo = response.getJSONArray("user_info");
+								}catch(Exception ex){
+									ex.printStackTrace();
+								}
 								//redirect to next page
 								searchIntent = new Intent(DemoActivity.this, SearchActivity.class);
 								searchIntent.putExtra("ID", userID);
 								searchIntent.putExtra("ISADMIN", isAdmin);
 								searchIntent.putExtra("SESSIONID", sessionID);
+
+								//send user data to search screen
+								searchIntent.putExtra("USERDATA", userInfo.toString());
+
 								startActivity(searchIntent);
+
 
 							}else{
 								//stay on this page
@@ -776,12 +790,20 @@ public class DemoActivity extends Activity {
 							}
 						}else{
 
+							try {
+
+								userInfo = response.getJSONArray("user_info");
+							}catch(Exception ex){
+								ex.printStackTrace();
+							}
+
 							Log.d(Constants.CUSTOM_LOG_TYPE, "preparing to Fire up the search activity");
 							Log.d(Constants.CUSTOM_LOG_TYPE, userID+ " " + isAdmin + " " + sessionID);
 							searchIntent = new Intent(DemoActivity.this, SearchActivity.class);
 							searchIntent.putExtra("ID", userID);
 							searchIntent.putExtra("ISADMIN", "no");
 							searchIntent.putExtra("SESSIONID", sessionID);
+							searchIntent.putExtra("USERDATA", userInfo.toString());
 							startActivity(searchIntent);
 
 						}

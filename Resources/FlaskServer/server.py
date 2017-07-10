@@ -32,7 +32,7 @@ def sendWave(jsonStr):
     arr = eval(data)
     print arr
     id = json_obj['ID']
-   
+    sessionId = json_obj['SESSIONID']
     result = {}
 
     #cA, cD = pywt.dwt(arr, 'db1')
@@ -44,8 +44,13 @@ def sendWave(jsonStr):
         #call dtw method
         
         is_authorized = authorize_brain_wave(arr, id)
-        if is_authorized == True:
+        if is_authorized == 1:
             result['is_authorized'] = True
+
+            #fetch data for the user
+            userInfo = get_user_data(id)
+            result['user_info'] = userInfo
+
         else:
             result['is_authorized'] = False
 
@@ -58,7 +63,11 @@ def sendWave(jsonStr):
 
 
         #apply the wavelet transform
-        id = registerUserBrainwave(arr, id, sessionId)
+        registerUserBrainwave(arr, id, sessionId)
+
+        #fetch data for the user
+        userInfo = get_user_data(id)
+        result['user_info'] = userInfo
 
     else:
         print 'unknown intent'
@@ -112,7 +121,7 @@ def search(jsonStr):
     id = json_obj['ID']
     sessionid = json_obj['SESSIONID']
 
-    data = search(id, sessionid)
+    data = get_brain_data(id, sessionid)
     if data == False:
         result['status'] = 'failure'
     else:
@@ -196,9 +205,10 @@ def authorize_user_id(id):
     cnx = db.getConn()
     cnx.set_converter_class(NumpyMySQLConverter)
 
-    condExpr = 'ID = ' + str(id)
-    cursor = db.fetchFromWhere("UBrainData", condExpr, cnx)
-    if cursor.rowcount != 0:
+    condExpr = 'UserID = ' + str(id)
+    cursor = db.fetchFromWhere("UserInfo", condExpr, cnx)
+    print 'row count->', cursor.rowcount
+    if cursor.rowcount >0:
         return True
     else:
         return False;
@@ -219,13 +229,13 @@ def authorize_brain_wave(data, id):
     print 'result from process_DTW->', result
     return result
 
-def search(id, sessionid):
+def get_brain_data(id, sessionid):
 
     db = DBHelper()
     cnx = db.getConn()
     cnx.set_converter_class(NumpyMySQLConverter)
 
-    condExpr = 'ID = ' + str(id) + ' AND SESSIONID = ' + str(sessionid)
+    condExpr = 'ID = ' + str(id) + ' AND SESSIONID = \"' + str(sessionid) + '\"'
     cursor = db.fetchFromWhere("UBrainData", condExpr, cnx)
     if cursor.rowcount != 0:
         series_list = cursor.fetchall()
@@ -304,3 +314,16 @@ def is_admin(id):
         return True
     else:
         return False
+
+def get_user_data(id):
+
+    db = DBHelper()
+    cnx = db.getConn()
+    condExpr = ' UserID = ' + str(id)
+    cursor = db.fetchFromWhere('UserInfo', condExpr, cnx) 
+    if cursor.rowcount>0:
+        userInfo = cursor.fetchone()
+        print 'userInfo-->', userInfo
+        return userInfo
+    else:
+        return None
