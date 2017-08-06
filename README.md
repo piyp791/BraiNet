@@ -10,11 +10,11 @@ https://peps0791.github.io/braiNet-password-less-authentication/
 
 ### 1. Set up the  database.
 
+ **1. Database server setup.**
 
-Set up a M   **1. Database server setup.**
-YSQL dataase server on a machine.
+Set up a MYSQL dataase server on a machine.
 
-   **2. Schema  set up.**
+**2. Schema  set up.**
 
 Pending....
 
