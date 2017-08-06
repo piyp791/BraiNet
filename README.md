@@ -32,7 +32,7 @@ to install the environment library dependencies.
 
 Run the python server using the command
     
-    FLASK_APP=hello.py flask run --host 0.0.0.0
+    FLASK_APP=server.py flask run --host 0.0.0.0
 
 ### 4. Connect the device to the phone.
 
