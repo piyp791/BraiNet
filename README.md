@@ -10,9 +10,13 @@ https://peps0791.github.io/braiNet-password-less-authentication/
 
 ### 1. Set up the  database.
 
--Database server setup.
+**1. Database server setup.**
 
--Schema  set up.
+Set up a MYSQL dataase server on a machine.
+
+**2. Schema  set up.**
+
+Pending....
 
 ### 2. Install the android application.
 
