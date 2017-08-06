@@ -18,22 +18,24 @@ https://peps0791.github.io/braiNet-password-less-authentication/
 
 ### 3. Set up the web server.
 
-1. Install the environment dependencies.
+**1. Install the environment dependencies.**
 
-Python version-> 2.7
+    Python version-> 2.7
 
 Run the command
+    
     pip install -r requirements.txt
 
 to install the environment library dependencies.
 
-2. Fire up the server.
+**2. Fire up the server.**
 
 Run the python server using the command
+    
     FLASK_APP=hello.py flask run --host 0.0.0.0
 
 ### 4. Connect the device to the phone.
 
--Start the bluetooth service.
+1. Start the bluetooth service on the phone.
 
--Connect te device to the phone via bluetooth.
+2. Connect the device to the phone via bluetooth.
