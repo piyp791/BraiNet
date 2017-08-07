@@ -28,9 +28,11 @@ def sendWave(jsonStr):
     intent = json_obj['INTENT']
 
     data = json_obj['DATA']
+    
     #arr = ast.literal_eval(new_working_str)
     arr = eval(data)
-    print arr
+    #print 'sendwave--->type of data-->' type(arr), type(arr[0])
+    #print arr
     id = json_obj['ID']
     sessionId = json_obj['SESSIONID']
     result = {}
@@ -42,17 +44,21 @@ def sendWave(jsonStr):
         print 'login intent'
         #should authorize
         #call dtw method
-        
         is_authorized = authorize_brain_wave(arr, id)
         if is_authorized == 1:
             result['is_authorized'] = True
 
             #fetch data for the user
             userInfo = get_user_data(id)
+            result['status'] = 'success'
             result['user_info'] = userInfo
 
-        else:
+        elif is_authorized == 0:
+            result['status'] = 'success'
             result['is_authorized'] = False
+        else:
+            result['status'] = 'failure'
+            result['message'] = 'Could not authenticate. Check database logs.'
 
     elif intent == 'REGISTER':
         print 'register intent'
@@ -68,13 +74,14 @@ def sendWave(jsonStr):
         #fetch data for the user
         userInfo = get_user_data(id)
         result['user_info'] = userInfo
+        result['status'] = 'success'
 
     else:
         print 'unknown intent'
         result['status'] = 'failure'
     
     
-    result['status'] = 'success'
+    
     result_data = json.dumps(result)
     print result_data
     return result_data
@@ -92,7 +99,11 @@ def validateID(jsonStr):
         #authorize user id
         id = json_obj['ID']
         #id authorization code
-        if authorize_user_id(id) == True:
+        validateid_result = authorize_user_id(id)
+        if validateid_result is None:
+            result['status'] = 'exception'
+            result['message'] = 'User could not be authorized. Check Database logs'
+        elif validateid_result == True:
 
             if is_admin(id) == True:
                 result['is_admin'] = 'yes'
@@ -122,8 +133,9 @@ def search(jsonStr):
     sessionid = json_obj['SESSIONID']
 
     data = get_brain_data(id, sessionid)
-    if data == False:
+    if data is None:
         result['status'] = 'failure'
+        result['message'] = 'Data could not be fetched from DB'
     else:
         result['status'] = 'success'        
     
@@ -146,6 +158,7 @@ def fetchSessions(jsonStr):
         result['userdata'] = user_data
     else:
         result['status'] = 'failure'
+        result['message'] = 'data could not be fetched!! Check Database logs'
    
     result_data = json.dumps(result)
     return result_data
@@ -166,9 +179,13 @@ def register(jsonStr):
         data = json_obj['DATA']
 
         userid = insert_data(data)
-        #get a user id
-        result['userid'] = userid
-        result['status'] = 'success'
+        if userid == -1:
+            result['status'] = 'failure'
+            result['message'] = 'Data could not be inserted. Check database logs.'
+        else:
+            #get a user id
+            result['userid'] = userid
+            result['status'] = 'success'
 
     else:
         result['status'] = 'failure'
@@ -203,15 +220,18 @@ def authorize_user_id(id):
 
     db = DBHelper()
     cnx = db.getConn()
-    cnx.set_converter_class(NumpyMySQLConverter)
-
-    condExpr = 'UserID = ' + str(id)
-    cursor = db.fetchFromWhere("UserInfo", condExpr, cnx)
-    print 'row count->', cursor.rowcount
-    if cursor.rowcount >0:
-        return True
+    if cnx is None:
+        return None;
     else:
-        return False;
+        cnx.set_converter_class(NumpyMySQLConverter)
+
+        condExpr = 'UserID = ' + str(id)
+        cursor = db.fetchFromWhere("UserInfo", condExpr, cnx)
+        print 'row count->', cursor.rowcount
+        if cursor.rowcount >0:
+            return True
+        else:
+            return False;
 
 
 def insert_data(data):
@@ -225,6 +245,7 @@ def authorize_brain_wave(data, id):
 
     print 'type of data-->', type(data), type(data[0])
     result = authenticateML(data,id)
+
     #result = process_for_DTW(data, id)
     print 'result from process_DTW->', result
     return result
@@ -237,16 +258,19 @@ def get_brain_data(id, sessionid):
 
     condExpr = 'ID = ' + str(id) + ' AND SESSIONID = \"' + str(sessionid) + '\"'
     cursor = db.fetchFromWhere("UBrainData", condExpr, cnx)
-    if cursor.rowcount != 0:
-        series_list = cursor.fetchall()
+    series_list = cursor.fetchall()
 
-    data = []
-    for row in series_list:
-        data.append(float(row[3]))
-    return data
+    if len(series_list) >=1:
+        data = []
+        for row in series_list:
+            data.append(float(row[3]))
+        return data
+    else:
+        return None
 
 def fetchSessionID(json_obj):
 
+    print json_obj
     search_str = ''
     try:
         id = json_obj["ID"]
@@ -260,7 +284,9 @@ def fetchSessionID(json_obj):
         name = None
     try:
         age = json_obj["AGE"]
-        search_str+=' AGE = ' + age + ' AND'
+        print 'age-->', age
+        search_str+=' AGE = ' + str(age) + ' AND'
+        print 'search string so far-->', search_str
     except:
         age = None
     try:
@@ -282,10 +308,19 @@ def fetchSessionID(json_obj):
     condExpr = search_str
     print 'cond expr->', condExpr
     cursor = db.fetchColFromWhere("UserInfo", "*", condExpr, cnx)
-    if cursor.rowcount != 0:
-        userInfo = cursor.fetchone()
+    userInfo = cursor.fetchall()
+    #if cursor.rowcount != 0:
+    #    userInfo = cursor.fetchone()
 
     print 'user info-->', userInfo
+    if len(userInfo) ==0:
+        print 'no user found!!'
+        return None
+
+    if len(userInfo)>=1:
+        userInfo = list(userInfo[0])
+
+    print 'new user info-->', userInfo
 
     userid = userInfo[0]
     #fetch sessions
@@ -310,10 +345,13 @@ def fetchSessionID(json_obj):
 def is_admin(id):
     db = DBHelper()
     cnx = db.getConn()
-    if db.checkIfAdmin(id, cnx) == 1:
-        return True
+    if cnx is None:
+        print 'connection is null'
     else:
-        return False
+        if db.checkIfAdmin(id, cnx) == 1:
+            return True
+        else:
+            return False
 
 def get_user_data(id):
 

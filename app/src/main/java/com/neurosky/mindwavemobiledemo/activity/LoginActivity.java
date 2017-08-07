@@ -51,6 +51,7 @@ public class LoginActivity extends AppCompatActivity {
     Button enterBtn;
     Intent enterIntent;
     EditText id;
+    String failureMsg;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -141,15 +142,50 @@ public class LoginActivity extends AppCompatActivity {
                             enterIntent.putExtra("ID", id);
                             enterIntent.putExtra("SESSIONID", sessionID);
                             startActivity(enterIntent);
+                        }else if(status.equals("exception")){
+                            try{
+                                failureMsg = response.getString("message");
+                            }catch(Exception ex){
+                                ex.printStackTrace();
+                            }
+                            LoginActivity.this.runOnUiThread(new Runnable() {
+                                public void run() {
+                                    Toast.makeText(LoginActivity.this.getBaseContext(), failureMsg, Toast.LENGTH_LONG).show();
+                                }
+                            });
                         }else{
                             LoginActivity.this.runOnUiThread(new Runnable() {
                                 public void run() {
-                                    Toast.makeText(LoginActivity.this.getBaseContext(), "Invalid ID!!!", Toast.LENGTH_LONG).show();
+                                    Toast.makeText(LoginActivity.this.getBaseContext(), "Invalid ID", Toast.LENGTH_LONG).show();
                                 }
                             });
                         }
 
                     }
+
+                    @Override
+                    public void onFailure(int statusCode, Header[] headers, final String responseString, Throwable throwable) {
+                        //super.onFailure(statusCode, headers, responseString, throwable);
+                        Log.d(Constants.CUSTOM_LOG_TYPE, "ON failure response-->" + responseString);
+                        LoginActivity.this.runOnUiThread(new Runnable() {
+                            public void run() {
+                                Toast.makeText(LoginActivity.this.getBaseContext(), "Failure Message-->" + responseString, Toast.LENGTH_LONG).show();
+                            }
+                        });
+                    }
+
+                    @Override
+                    public void onRetry(int requestNum) {
+                        super.onRetry(requestNum);
+
+                        Log.d(Constants.CUSTOM_LOG_TYPE, "on retry->");
+                        LoginActivity.this.runOnUiThread(new Runnable() {
+                            public void run() {
+                                Toast.makeText(LoginActivity.this.getBaseContext(), "Couldn't connect with the server. Retrying...", Toast.LENGTH_LONG).show();
+                            }
+                        });
+                    }
+
                 });
 
             }

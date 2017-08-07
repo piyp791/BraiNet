@@ -13,13 +13,321 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b952b96-28bd-458c-822b-00cd2aa9daf7" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/PackagingLog.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution/MyAppInstaller_web.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/Comparator.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/Comparator/Class1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/Comparator/Class1Remote.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/Comparator/ComparatorMCRFactory.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/Comparator/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/Comparator/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/Comparator/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/Comparator/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/allclasses-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/allclasses-noframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/constant-values.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/deprecated-list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/help-doc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/index-all.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/overview-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/package-list" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/resources/background.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/resources/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/resources/tab.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/resources/titlebar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/resources/titlebar_end.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/doc/html/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_redistribution_files_only/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/Comparator.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/Comparator.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/Comparator/Class1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/Comparator/Class1Remote.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/Comparator/ComparatorMCRFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/Comparator/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/Comparator/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/classes/Comparator/Class1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/classes/Comparator/Class1Remote.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/classes/Comparator/Comparator.ctf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/classes/Comparator/ComparatorMCRFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/classes/Comparator/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/classes/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/Comparator/Class1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/Comparator/Class1Remote.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/Comparator/ComparatorMCRFactory.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/Comparator/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/Comparator/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/Comparator/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/Comparator/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/allclasses-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/allclasses-noframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/constant-values.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/deprecated-list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/help-doc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/index-all.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/overview-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/package-list" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/resources/background.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/resources/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/resources/tab.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/resources/titlebar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/resources/titlebar_end.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/doc/html/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/mccExcludedFiles.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/Comparator/for_testing/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/PackagingLog.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution/MyAppInstaller_web.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/FeatureExt.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/html/FeatureExt/Class1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/html/FeatureExt/Class1Remote.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/html/FeatureExt/FeatureExtMCRFactory.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/html/FeatureExt/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/html/FeatureExt/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/html/FeatureExt/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/html/FeatureExt/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/html/allclasses-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/html/allclasses-noframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/html/constant-values.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/html/deprecated-list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/html/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/html/help-doc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/html/index-all.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/html/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/html/overview-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/html/package-list" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/html/resources/background.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/html/resources/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/html/resources/tab.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/html/resources/titlebar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/html/resources/titlebar_end.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/doc/html/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_redistribution_files_only/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/FFT.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/FeatureExt.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/FeatureExt.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/FeatureExt/Class1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/FeatureExt/Class1Remote.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/FeatureExt/FeatureExtMCRFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/FeatureExt/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/FeatureExt/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/classes/FeatureExt/Class1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/classes/FeatureExt/Class1Remote.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/classes/FeatureExt/FeatureExt.ctf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/classes/FeatureExt/FeatureExtMCRFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/classes/FeatureExt/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/classes/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/html/FeatureExt/Class1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/html/FeatureExt/Class1Remote.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/html/FeatureExt/FeatureExtMCRFactory.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/html/FeatureExt/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/html/FeatureExt/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/html/FeatureExt/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/html/FeatureExt/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/html/allclasses-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/html/allclasses-noframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/html/constant-values.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/html/deprecated-list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/html/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/html/help-doc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/html/index-all.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/html/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/html/overview-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/html/package-list" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/html/resources/background.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/html/resources/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/html/resources/tab.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/html/resources/titlebar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/html/resources/titlebar_end.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/doc/html/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/mccExcludedFiles.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/FeatureExt/for_testing/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/.settings/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/NeuroMovieClient/appcompat_v7/bin/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/NeuroMovieClient/appcompat_v7/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/NeuroMovieClient/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/assets/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/NeuroMovieClient.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/R.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/android/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/android/support/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/android/support/v7/appcompat/R$anim.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/android/support/v7/appcompat/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/android/support/v7/appcompat/R$bool.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/android/support/v7/appcompat/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/android/support/v7/appcompat/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/android/support/v7/appcompat/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/android/support/v7/appcompat/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/android/support/v7/appcompat/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/android/support/v7/appcompat/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/android/support/v7/appcompat/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/android/support/v7/appcompat/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/android/support/v7/appcompat/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/android/support/v7/appcompat/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/android/support/v7/appcompat/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/android/support/v7/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/Client" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/Client_Last" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/HelloEEGActivity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/HelloEEGActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/HelloEEGActivity$Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/HelloEEGActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/HelloEEGActivityFinal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/MarkovModel" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/R$anim.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/R$bool.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/R$menu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/RSA.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/activity_main" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/com/example/neuromovieclient/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/classes/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/dexedLibs/ThinkGearBase-5c1c27f0cb49cf352eea4876481e0fb2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/dexedLibs/ThinkGearBase-e1b537062cc8b7a0ded48a1dbee98988.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/dexedLibs/ThinkGearPackX-5cb5207987b0e65e0c6622028f4c43dd.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/dexedLibs/ThinkGearPackX-d69b694d45ed593301b06368980238e1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/dexedLibs/android-support-v4-742f45dd1d4291c4d97856a89902e133.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/dexedLibs/android-support-v4-aa9c46a908293fe59af092633063dc42.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/dexedLibs/android-support-v7-appcompat-04d20094b6f13c34a45ac4db1820abfa.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/dexedLibs/android-support-v7-appcompat-64cb9585eb31257585c872bb93b99f91.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/dexedLibs/android-support-v7-appcompat-85c5295244e773d6bf33088d3190aa92.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/dexedLibs/android-support-v7-appcompat-d9f8d8860832ee1c75ae04c06fe36df8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/dexedLibs/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/jarlist.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/neuromovieclient.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/res/crunch/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/res/crunch/drawable-hdpi/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/res/crunch/drawable-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/res/crunch/drawable-mdpi/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/res/crunch/drawable-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/res/crunch/drawable-xhdpi/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/res/crunch/drawable-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/res/crunch/drawable-xxhdpi/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/res/crunch/drawable-xxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/res/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/bin/resources.ap_" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/gen/android/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/gen/android/support/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/gen/android/support/v7/appcompat/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/gen/android/support/v7/appcompat/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/gen/android/support/v7/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/gen/com/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/gen/com/example/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/gen/com/example/neuromovieclient/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/gen/com/example/neuromovieclient/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/gen/com/example/neuromovieclient/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/gen/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/ic_launcher-web.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/libs/ThinkGearBase.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/libs/ThinkGearPackX.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/libs/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/proguard-project.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/drawable-hdpi/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/drawable-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/drawable-ldpi/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/drawable-mdpi/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/drawable-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/drawable-xhdpi/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/drawable-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/drawable-xxhdpi/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/drawable-xxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/layout/activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/layout/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/menu/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/menu/main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/values-v14/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/values-v14/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/values-v14/values-v11/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/values-v14/values-v11/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/values-w820dp/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/values-w820dp/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/values/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/values/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/res/values/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/src/com/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/src/com/example/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/src/com/example/neuromovieclient/Client" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/src/com/example/neuromovieclient/Client_Last" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/src/com/example/neuromovieclient/HelloEEGActivity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/src/com/example/neuromovieclient/HelloEEGActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/src/com/example/neuromovieclient/HelloEEGActivityFinal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/src/com/example/neuromovieclient/MarkovModel" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/src/com/example/neuromovieclient/RSA.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/src/com/example/neuromovieclient/activity_main" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/src/com/example/neuromovieclient/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/NeuroMovieClient/src/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/BraiNet/READ ME.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/color.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/drawable.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/layout-v16.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/layout.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout-v16.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/sLwotwu6nH413+h9Q9UTuc_zG0w=" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/sLwotwu6nH413+h9Q9UTuc_zG0w=" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0d5d22dd5cee62abf8df6b2db7348ad3c7760981/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bf4c60b6aedfc0e296035cacfe2062e2bd8de4af/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/2/libStreamSDK_v1.2.0_b521442f3a45284f5254e88a38d9a1648e7424b0/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/buildId.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/buildId.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/buildId.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/R$raw.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/R$xml.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/R$xml.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/BTDeviceListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/BTDeviceListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/BluetoothAdapterDemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/BluetoothAdapterDemoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/BluetoothDeviceDemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/BluetoothDeviceDemoActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$10.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$1.class" />
@@ -37,6 +345,18 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/FileDemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/FileDemoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$3.class" />
@@ -47,7 +367,21 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchResultsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/activity/SearchResultsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/helper/Utils.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/helper/Utils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/helper/Constants.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/helper/Constants.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/helper/WebRequestHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/neurosky/mindwavemobiledemo/helper/WebRequestHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/R$raw.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/R$xml.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/R$xml.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/BTDeviceListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/BTDeviceListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/BluetoothAdapterDemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/BluetoothAdapterDemoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/BluetoothDeviceDemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/BluetoothDeviceDemoActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$10.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$1.class" />
@@ -65,6 +399,18 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/DemoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/FileDemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/FileDemoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/LoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/RegisterActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$3.class" />
@@ -75,11 +421,29 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchResultsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/activity/SearchResultsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/helper/Utils.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/helper/Utils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/helper/Constants.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/helper/Constants.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/helper/WebRequestHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/neurosky/mindwavemobiledemo/helper/WebRequestHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_4.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_4.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_5.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_5.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_8.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_8.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/R$raw.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/R$xml.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/R$xml.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/BTDeviceListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/BTDeviceListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/BluetoothAdapterDemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/BluetoothAdapterDemoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/BluetoothDeviceDemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/BluetoothDeviceDemoActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$10.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$1.class" />
@@ -97,6 +461,18 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/DemoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/FileDemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/FileDemoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/LoginActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/LoginActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/LoginActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/LoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/RegisterActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/RegisterActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$3.class" />
@@ -107,8 +483,22 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchResultsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/activity/SearchResultsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/helper/Utils.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/helper/Utils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/neurosky/mindwavemobiledemo/helper/Utils.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/neurosky/mindwavemobiledemo/helper/Utils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/helper/Constants.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/helper/Constants.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/helper/WebRequestHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/neurosky/mindwavemobiledemo/helper/WebRequestHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/android/support/v7/appcompat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/neurosky/mindwavemobiledemo/helper/Constants.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/neurosky/mindwavemobiledemo/helper/Constants.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/neurosky/mindwavemobiledemo/helper/WebRequestHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/neurosky/mindwavemobiledemo/helper/WebRequestHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/R$raw.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/R$xml.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/R$xml.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/BTDeviceListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/BTDeviceListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/BluetoothAdapterDemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/BluetoothAdapterDemoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/BluetoothDeviceDemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/BluetoothDeviceDemoActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$10.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$2$1.class" />
@@ -126,6 +516,18 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity$AuthenticateBrainWaveTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/DemoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/FileDemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/FileDemoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/LoginActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/LoginActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/LoginActivity$ValidateIDTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/LoginActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/LoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/RegisterActivity$InsertDataTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/RegisterActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/RegisterActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$3.class" />
@@ -136,21 +538,180 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity$SearchTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchResultsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/neurosky/mindwavemobiledemo/activity/SearchResultsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/FlaskServer/DBHelper.py" afterPath="$PROJECT_DIR$/Resources/FlaskServer/DBHelper.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/FlaskServer/DBLogs.log" afterPath="$PROJECT_DIR$/Resources/FlaskServer/DBLogs.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/FlaskServer/authenticateML.py" afterPath="$PROJECT_DIR$/Resources/FlaskServer/authenticateML.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/FlaskServer/process_for_DTW.py" afterPath="$PROJECT_DIR$/Resources/FlaskServer/process_for_DTW.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/FlaskServer/server.py" afterPath="$PROJECT_DIR$/Resources/FlaskServer/server.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/neurosky/mindwavemobiledemo/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/neurosky/mindwavemobiledemo/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-800x480.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-800x480.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-af.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-af.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-am.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-am.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ar.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ar.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-az-rAZ.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-az-rAZ.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-b+sr+Latn.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-b+sr+Latn.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-be-rBY.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-be-rBY.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bg.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bg.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bn-rBD.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bn-rBD.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bs-rBA.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bs-rBA.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ca.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ca.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-cs.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-cs.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-da.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-da.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-de.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-de.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-el.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-el.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rAU.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rAU.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rGB.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rGB.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es-rUS.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es-rUS.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-et-rEE.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-et-rEE.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-eu-rES.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-eu-rES.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fa.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fa.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-gl-rES.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-gl-rES.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-gu-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-gu-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-h720dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-h720dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hr.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hu.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hu.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hy-rAM.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hy-rAM.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-in.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-in.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-is-rIS.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-is-rIS.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-it.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-it.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-iw.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-iw.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ja.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ja.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ka-rGE.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ka-rGE.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-kk-rKZ.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-kk-rKZ.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-km-rKH.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-km-rKH.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-kn-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-kn-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ko.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ko.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ky-rKG.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ky-rKG.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-land.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-land.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-large-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-large-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ldltr-v21.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ldltr-v21.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lo-rLA.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lo-rLA.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lt.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lt.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lv.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lv.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mk-rMK.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mk-rMK.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ml-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ml-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mn-rMN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mn-rMN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mr-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mr-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ms-rMY.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ms-rMY.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-my-rMM.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-my-rMM.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-nb.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-nb.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ne-rNP.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ne-rNP.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-night-v8.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-night-v8.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-nl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-nl.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pa-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pa-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pl.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-port.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-port.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ro.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ro.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ru.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ru.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-si-rLK.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-si-rLK.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sk.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sk.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sl.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sq-rAL.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sq-rAL.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sr.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sv.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sv.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sw.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sw.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ta-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ta-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-te-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-te-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-th.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-th.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-tl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-tl.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-tr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-tr.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-uk.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-uk.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ur-rPK.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ur-rPK.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-uz-rUZ.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-uz-rUZ.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v11.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v11.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v12.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v12.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v14.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v14.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v16.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v16.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v17.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v17.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v18.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v18.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v21.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v21.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v22.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v22.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v23.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v23.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v24.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v24.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v25.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v25.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-vi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-vi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zu.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zu.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/anim.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/anim.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color-v11.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color-v11.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color-v23.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color-v23.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-hdpi-v17.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-hdpi-v17.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-mdpi-v17.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-mdpi-v17.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-xhdpi-v17.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-xhdpi-v17.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxhdpi-v17.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxhdpi-v17.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxxhdpi-v17.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxxhdpi-v17.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-v21.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-v21.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-v23.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-v23.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout-v11.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout-v11.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout-v21.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout-v21.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/raw.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/raw.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/xml.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/xml.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_dependencies/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_dependencies/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_1/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_1/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_search.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_search.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/buildId.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/DemoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/DemoActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/LoginActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/RegisterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/RegisterActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/SearchActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/SearchActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/SearchResultsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/SearchResultsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/helper/Utils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/helper/Utils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/helper/Constants.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/helper/Constants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/helper/WebRequestHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/helper/WebRequestHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="TGStreamDemo_MindWaveMobile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -183,87 +744,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DemoActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DemoActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/DemoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="796" column="35" selection-start-line="796" selection-start-column="35" selection-end-line="796" selection-end-column="35" />
+            <state relative-caret-position="1755">
+              <caret line="168" column="24" selection-start-line="168" selection-start-column="24" selection-end-line="168" selection-end-column="24" />
               <folding>
-                <element signature="method#stop#0;class#DemoActivity#0" expanded="false" />
+                <element signature="imports" expanded="false" />
                 <element signature="method#onDestroy#0;class#DemoActivity#0" expanded="false" />
+                <element signature="e#8928#8929#0" expanded="false" />
+                <element signature="e#8950#8951#0" expanded="false" />
+                <element signature="e#14709#14710#0" expanded="false" />
+                <element signature="e#14782#14783#0" expanded="false" />
                 <element signature="docComment;method#bindToDevice#0;class#DemoActivity#0" expanded="false" />
-                <element signature="e#20548#23122#0" expanded="true" />
-                <element signature="e#23121#23122#0" expanded="true" />
+                <element signature="e#20097#20098#0" expanded="false" />
+                <element signature="e#20128#20129#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebRequestHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/helper/WebRequestHelper.java">
+      <file leaf-file-name="TgStreamReader.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/app/libs/libStreamSDK_v1.2.0.jar!/com/neurosky/connection/TgStreamReader.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="1425">
+              <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/helper/Utils.java">
+      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/helper/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/LoginActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="134" column="49" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/SearchActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="84" column="24" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchResultsActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/SearchResultsActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="101" column="38" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/RegisterActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1725">
-              <caret line="142" column="20" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
+            <state relative-caret-position="255">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -1730,7 +2245,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4497519255678" />
+        <entry key="$PROJECT_DIR$" value="4497384258000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2112,7 +2627,6 @@
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/helper/UploadsHelper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/helper/Constants.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/RecordActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/MainActivity.java" />
@@ -2125,15 +2639,16 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/DrawWaveView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/HomeActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/helper/WebRequestHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_search_results.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/RegisterActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/helper/Utils.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/SearchActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/SearchResultsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/helper/WebRequestHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/RegisterActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/LoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/DemoActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/SearchActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/helper/Constants.java" />
       </list>
     </option>
   </component>
@@ -2168,10 +2683,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2182,106 +2693,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Gradle Scripts" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainNet-kk" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainNet-kk" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainNet-kk" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainNet-kk" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="raw" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainNet-kk" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainNet-kk" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2310,10 +2721,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="mindwavemobiledemo" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2338,44 +2745,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainNet-kk" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mindwavemobiledemo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainNet-kk" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2775,25 +3150,25 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32832617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32832617" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4139785" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4139785" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32832617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32832617" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.249309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2803,36 +3178,6 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6694796" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -2850,7 +3195,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/DemoActivity.java</url>
-          <line>545</line>
+          <line>538</line>
           <properties class="com.neurosky.mindwavemobiledemo.activity.DemoActivity" method="scanDevice" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -2860,16 +3205,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_record.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/app/libs/libStreamSDK_v1.2.0.jar!/com/neurosky/connection/DataType/MindDataType.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -2891,13 +3226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/BluetoothDeviceDemoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/FileDemoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -2916,14 +3244,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="135" column="57" selection-start-line="135" selection-start-column="57" selection-end-line="135" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/helper/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2952,7 +3272,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2970,19 +3289,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/RecordActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="365">
           <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -2993,7 +3303,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -3011,7 +3320,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -3022,7 +3330,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="40" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -3033,7 +3340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -3072,7 +3378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3097,13 +3402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/app/libs/libStreamSDK_v1.2.0.jar!/com/neurosky/connection/TgStreamReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4710">
-          <caret line="351" column="16" selection-start-line="351" selection-start-column="16" selection-end-line="351" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Android/Sdk/sources/android-25/android/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -3115,7 +3413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -3126,7 +3423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="68" column="35" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3142,42 +3438,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="e#908#926#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-660">
           <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="1090">
-          <caret line="187" column="42" selection-start-line="187" selection-start-column="25" selection-end-line="187" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
@@ -3185,7 +3455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3193,7 +3462,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="-455">
           <caret line="118" column="30" selection-start-line="118" selection-start-column="30" selection-end-line="118" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -3204,7 +3472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3212,7 +3479,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -3223,72 +3489,137 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="454">
           <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/RegisterActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/SearchResultsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="142" column="20" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="296">
+          <caret line="101" column="38" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/LoginActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/RecordActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="134" column="49" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="49" />
-          <folding />
+        <state relative-caret-position="150">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/helper/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
+        <state relative-caret-position="750">
           <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/SearchResultsActivity.java">
+    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-25/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="101" column="38" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="171">
+          <caret line="1154" column="18" selection-start-line="1154" selection-start-column="18" selection-end-line="1154" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/SearchActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/BluetoothDeviceDemoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="84" column="24" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="-2550">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="62" />
+          <folding>
+            <element signature="e#908#926#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/helper/WebRequestHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="540">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/RegisterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2670">
+          <caret line="205" column="113" selection-start-line="205" selection-start-column="113" selection-end-line="205" selection-end-column="113" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/DemoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="796" column="35" selection-start-line="796" selection-start-column="35" selection-end-line="796" selection-end-column="35" />
+        <state relative-caret-position="1755">
+          <caret line="168" column="24" selection-start-line="168" selection-start-column="24" selection-end-line="168" selection-end-column="24" />
           <folding>
-            <element signature="method#stop#0;class#DemoActivity#0" expanded="false" />
+            <element signature="imports" expanded="false" />
             <element signature="method#onDestroy#0;class#DemoActivity#0" expanded="false" />
+            <element signature="e#8928#8929#0" expanded="false" />
+            <element signature="e#8950#8951#0" expanded="false" />
+            <element signature="e#14709#14710#0" expanded="false" />
+            <element signature="e#14782#14783#0" expanded="false" />
             <element signature="docComment;method#bindToDevice#0;class#DemoActivity#0" expanded="false" />
-            <element signature="e#20548#23122#0" expanded="true" />
-            <element signature="e#23121#23122#0" expanded="true" />
+            <element signature="e#20097#20098#0" expanded="false" />
+            <element signature="e#20128#20129#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/SearchActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#6955#6956#0" expanded="false" />
+            <element signature="e#7001#7002#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/activity/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="2625">
+          <caret line="175" column="43" selection-start-line="175" selection-start-column="43" selection-end-line="175" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/libStreamSDK_v1.2.0.jar!/com/neurosky/connection/TgStreamReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/neurosky/mindwavemobiledemo/helper/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>

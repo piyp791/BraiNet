@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+        "outputFile": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 185
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-v14/styles.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-v14/styles.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

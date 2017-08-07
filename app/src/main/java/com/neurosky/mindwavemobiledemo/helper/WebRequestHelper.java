@@ -31,16 +31,16 @@ public class WebRequestHelper {
 
     }
 
-    private static final String BASE_URL = "http://192.168.0.15:5000";
+    private static final String BASE_URL = Constants.HOST;
 
 
     private static SyncHttpClient client = new SyncHttpClient();
 
 
     public static void get(String url, RequestParams params, AsyncHttpResponseHandler responseHandler) {
-        client.setResponseTimeout(30000);
-        client.setTimeout(30000);
-        client.setConnectTimeout(30000);
+        client.setResponseTimeout(Constants.TIMEOUT_TIME);
+        client.setTimeout(Constants.TIMEOUT_TIME);
+        client.setConnectTimeout(Constants.TIMEOUT_TIME);
         client.get(getAbsoluteUrl(url), params, responseHandler);
     }
 

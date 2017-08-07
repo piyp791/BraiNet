@@ -3,30 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="/home/peps/Downloads/BrainNet-kk/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3d5d287304db2296f7afe64144fe63159d6390ab">
+        <dex dex="/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9e5da5c1fd9be25fcf471f837a8ee5effcd75ce4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/home/peps/Downloads/BrainNet-kk/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bf4c60b6aedfc0e296035cacfe2062e2bd8de4af/classes.dex" />
+        <dex dex="/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e6aa98c45e524715340540d0d737d9e6b4e988de/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/peps/Downloads/BrainNet-kk/app/libs/libStreamSDK_v1.2.0.jar"
+        jar="/home/peps/Downloads/group7/BrainNet-kk/app/libs/libStreamSDK_v1.2.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="033b7351fc2173a9ac8e82a355c877495759eb67">
-        <dex dex="/home/peps/Downloads/BrainNet-kk/app/build/intermediates/transforms/dex/debug/folders/1000/2/libStreamSDK_v1.2.0_b521442f3a45284f5254e88a38d9a1648e7424b0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/peps/Downloads/BrainNet-kk/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="3ce972ecbade723fc02595a270a62b1bcdf26f58">
-        <dex dex="/home/peps/Downloads/BrainNet-kk/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0d5d22dd5cee62abf8df6b2db7348ad3c7760981/classes.dex" />
+        <dex dex="/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/transforms/dex/debug/folders/1000/2/libStreamSDK_v1.2.0_e952727c34642f1b5d2e30ed707f637a5fcef202/classes.dex" />
     </item>
 
 </items>

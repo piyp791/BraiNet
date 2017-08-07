@@ -12,6 +12,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -50,14 +51,18 @@ public class SearchActivity extends AppCompatActivity{
     TextView searchAgeLabel;
     TextView searchGenderLabel;
     TextView searchSessionIDLabel;
+    TextView searchIDView;
     EditText searchName;
     EditText searchAge;
     RadioGroup searchGender;
+    RadioButton maleBtn;
+    RadioButton femaleBtn;
     Spinner searchSessionList;
     String[] strSessionList;
     String userInfo;
     String sessionIDSelected;
     String nonAdminUserData;
+    String failureMsg;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,15 +83,33 @@ public class SearchActivity extends AppCompatActivity{
 
         searchBtn = (Button)findViewById(R.id.search_searchBtn);
         fetchSessionBtn = (Button)findViewById(R.id.fetchSessionIDBtn);
+        maleBtn = (RadioButton)findViewById((R.id.search_maleBtn));
+        femaleBtn = (RadioButton)findViewById((R.id.search_femaleBtn));
+
+
+        searchIDView = (TextView)findViewById(R.id.search_idview);
 
         Intent intent = getIntent();
         isAdmin = intent.getStringExtra("ISADMIN");
         Log.d(Constants.CUSTOM_LOG_TYPE, "is admin-->"+ isAdmin);
         nonAdminUserData = intent.getStringExtra("USERDATA");
+        Log.d(Constants.CUSTOM_LOG_TYPE, "user data-->" + nonAdminUserData);
+
+
 
         searchID.setText("");
         searchAge.setText("");
         searchName.setText("");
+        searchIDView.setText("");
+
+        try {
+            JSONArray userData = new JSONArray(nonAdminUserData);
+            String userID = userData.getString(0);
+            searchIDView.setText("LOGGED IN ID ->" +userID);
+
+        }catch(Exception ex){
+            ex.printStackTrace();
+        }
 
         if(isAdmin.equalsIgnoreCase("no")){
             searchIDLabel.setVisibility(View.INVISIBLE);
@@ -106,20 +129,23 @@ public class SearchActivity extends AppCompatActivity{
             public void onClick(View v)
             {
 
+                Log.d(Constants.CUSTOM_LOG_TYPE, "Search button clicked..!!");
                 JSONObject jsonObject = new JSONObject();
                 try{
                     searchId_str = searchID.getText().toString();
+                    Log.d(Constants.CUSTOM_LOG_TYPE, "search id string -->" + searchId_str);
                     if(searchId_str!=null && !searchId_str.isEmpty()){
                         jsonObject.put("ID", searchId_str);
                     }else{
                         JSONArray userInfoArr = new JSONArray(userInfo);
                         Log.d(Constants.CUSTOM_LOG_TYPE, "User ID-->" +userInfoArr.getString(0));
                         jsonObject.put("ID", userInfoArr.getString(0));
-
-
-                        sessionIDSelected = searchSessionList.getSelectedItem().toString();
-                        jsonObject.put("SESSIONID", sessionIDSelected);
                     }
+
+                    searchSessionList.setSelection(0);
+                    sessionIDSelected = searchSessionList.getSelectedItem().toString();
+                    Log.d(Constants.CUSTOM_LOG_TYPE, "Session ID selected-->" + sessionIDSelected);
+                    jsonObject.put("SESSIONID", sessionIDSelected);
 
 
                 }catch(Exception ex){
@@ -170,10 +196,6 @@ public class SearchActivity extends AppCompatActivity{
     }
 
 
-    private String restoreSessionID(String modifiedSessionID){
-        return "";
-    }
-
     private class SearchTask extends AsyncTask<String, Integer, String> {
 
 
@@ -197,9 +219,35 @@ public class SearchActivity extends AppCompatActivity{
                 @Override
                 public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
                     // If the response is JSONObject instead of expected JSONArray
+
                     Log.d(Constants.CUSTOM_LOG_TYPE, response.toString());
                     doRequestHandle(requestedURI, response);
                 }
+
+
+                @Override
+                public void onFailure(int statusCode, Header[] headers, final String responseString, Throwable throwable) {
+                    //super.onFailure(statusCode, headers, responseString, throwable);
+                    Log.d(Constants.CUSTOM_LOG_TYPE, "ON failure response-->" + responseString);
+                    SearchActivity.this.runOnUiThread(new Runnable() {
+                        public void run() {
+                            Toast.makeText(SearchActivity.this.getBaseContext(), "Failure Message-->" + responseString, Toast.LENGTH_LONG).show();
+                        }
+                    });
+                }
+
+                @Override
+                public void onRetry(int requestNum) {
+                    super.onRetry(requestNum);
+
+                    Log.d(Constants.CUSTOM_LOG_TYPE, "on retry->");
+                    SearchActivity.this.runOnUiThread(new Runnable() {
+                        public void run() {
+                            Toast.makeText(SearchActivity.this.getBaseContext(), "Couldn't connect with the server. Retrying...", Toast.LENGTH_LONG).show();
+                        }
+                    });
+                }
+
             });
             return "";
         }
@@ -254,8 +302,6 @@ public class SearchActivity extends AppCompatActivity{
                     if(!searchAge.getText().toString().isEmpty()){
                         age = Integer.parseInt(searchAge.getText().toString());
                     }
-
-                    String gender = "f";
 
                     //check which field has been filled
                     if(name!=null && !name.isEmpty()){
@@ -313,6 +359,10 @@ public class SearchActivity extends AppCompatActivity{
                         userData = new JSONObject(userDataStr);
                         sessionIDList = userData.getJSONArray("data");
                         userInfo = userData.getJSONArray("userInfo").toString();
+
+                        //set fields
+                        final JSONArray userJSON = userData.getJSONArray("userInfo");
+                        Log.d(Constants.CUSTOM_LOG_TYPE, userJSON.toString());
                         strSessionList = new String[sessionIDList.length()];
                         for(int i=0;i<sessionIDList.length();i++){
                             strSessionList[i] = formatSessionStr(sessionIDList.getString(i));
@@ -323,17 +373,43 @@ public class SearchActivity extends AppCompatActivity{
                             public void run() {
                                 ArrayAdapter<String> adapter = new ArrayAdapter<String>(SearchActivity.this, android.R.layout.simple_spinner_dropdown_item, strSessionList);
                                 searchSessionList.setAdapter(adapter);
+
+                                try {
+                                    searchID.setText(userJSON.getString(0));
+                                    searchName.setText(userJSON.getString(1));
+
+                                    String userGender = userJSON.getString(2);
+                                    if (userGender.equalsIgnoreCase("f")) {
+                                        femaleBtn.setSelected(true);
+                                    } else {
+                                        maleBtn.setSelected(true);
+                                    }
+
+                                    searchAge.setText(userJSON.getString(3));
+                                }catch(Exception ex){
+                                    ex.printStackTrace();
+                                }
+
                             }
                         });
+
+                        //hard coding
+                        sessionIDSelected = strSessionList[0];
 
                     }catch(Exception ex){
                         ex.printStackTrace();
                     }
 
                 }else{
+                    try {
+                        failureMsg = response.getString("message");
+                    }catch(Exception ex){
+                        ex.printStackTrace();
+                    }
                     SearchActivity.this.runOnUiThread(new Runnable() {
                         public void run() {
-                            Toast.makeText(SearchActivity.this.getBaseContext(), "Something wrong!!!", Toast.LENGTH_LONG).show();
+
+                            Toast.makeText(SearchActivity.this.getBaseContext(), failureMsg, Toast.LENGTH_LONG).show();
                         }
                     });
                 }
@@ -384,9 +460,14 @@ public class SearchActivity extends AppCompatActivity{
 
             } else {
                 //Toast.makeText(RegisterActivity.this, "Something wrong!!!", Toast.LENGTH_SHORT).show();
+                try {
+                    failureMsg = response.getString("message");
+                }catch(Exception ex){
+                    ex.printStackTrace();
+                }
                 SearchActivity.this.runOnUiThread(new Runnable() {
                     public void run() {
-                        Toast.makeText(SearchActivity.this.getBaseContext(), "Something wrong!!!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(SearchActivity.this.getBaseContext(), failureMsg, Toast.LENGTH_LONG).show();
                     }
                 });
 

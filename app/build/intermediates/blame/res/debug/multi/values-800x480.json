@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-800x480/values-800x480.xml",
+        "outputFile": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-800x480/values-800x480.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 164
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 213
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 264
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 54,
                         "startColumn": 2,
@@ -87,7 +87,7 @@
                     "endOffset": 315
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 55,
                         "startColumn": 2,
@@ -106,7 +106,7 @@
                     "endOffset": 372
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 426
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 475
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 519
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 563
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 615
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 669
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 718
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 767
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 821
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 876
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 928
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 981
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 1025
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -372,7 +372,7 @@
                     "endOffset": 1072
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -391,7 +391,7 @@
                     "endOffset": 1117
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -410,7 +410,7 @@
                     "endOffset": 1160
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -429,7 +429,7 @@
                     "endOffset": 1206
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 41,
                         "startColumn": 2,
@@ -448,7 +448,7 @@
                     "endOffset": 1255
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 2,
@@ -467,7 +467,7 @@
                     "endOffset": 1303
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 2,
@@ -486,7 +486,7 @@
                     "endOffset": 1347
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 2,
@@ -505,7 +505,7 @@
                     "endOffset": 1398
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 47,
                         "startColumn": 2,
@@ -524,7 +524,7 @@
                     "endOffset": 1455
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 2,
@@ -543,7 +543,7 @@
                     "endOffset": 1510
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 49,
                         "startColumn": 2,
@@ -562,7 +562,7 @@
                     "endOffset": 1561
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 46,
                         "startColumn": 2,
@@ -581,7 +581,7 @@
                     "endOffset": 1622
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -600,7 +600,7 @@
                     "endOffset": 1665
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 52,
                         "startColumn": 2,
@@ -619,7 +619,7 @@
                     "endOffset": 1712
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 53,
                         "startColumn": 2,
@@ -638,7 +638,7 @@
                     "endOffset": 1754
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 51,
                         "startColumn": 2,
@@ -657,7 +657,7 @@
                     "endOffset": 1795
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -676,7 +676,7 @@
                     "endOffset": 1838
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -695,7 +695,7 @@
                     "endOffset": 1895
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 37,
                         "startColumn": 2,
@@ -714,7 +714,7 @@
                     "endOffset": 1952
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 2,
@@ -733,7 +733,7 @@
                     "endOffset": 2006
                 },
                 "from": {
-                    "file": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
+                    "file": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/values-800x480/dimens.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 2,

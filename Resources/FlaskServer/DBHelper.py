@@ -19,8 +19,8 @@ class DBHelper:
      def getConn(self):
          logger = logging.getLogger()
          try:
-            cnx = mysql.connector.connect(user='root', password='RootRoot',
-                                          host='group7project.cveeuzcqvex9.us-east-1.rds.amazonaws.com',
+            cnx = mysql.connector.connect(user='root', password='password',
+                                          host='127.0.0.1',
                                           database='BrainNet')
             cnx.set_converter_class(NumpyMySQLConverter)
             
@@ -33,9 +33,10 @@ class DBHelper:
                 print("Database does not exist")
             else:
                 print(err)
+
+            return None
          return cnx
      
-        
      # 
      # Helper method for Data Insertion into a table #   
      #
@@ -79,24 +80,20 @@ class DBHelper:
 
      def batchInsertBrainData(self, userID, timestamp, sessionid, data_series, cnx):
 
-        cur = cnx.cursor()
-        '''print 'data series type-->', type(data_series)
-        print 'data series -->', data_series
-        print 'timestamp type-->', type(timestamp)
-        print 'timestamp -->', timestamp
-        print 'user id type-->', type(userID)
-        print 'user id -->', userID
-        
-        print 'tup-->', tup'''
-        tup = zip(userID, timestamp, sessionid, data_series)
-        try:
-            cur.executemany("INSERT INTO UBrainData (ID, timestamp, SessionID, data) VALUES(%s, %s, %s, %s) " ,tup)
-            cnx.commit()
-        except Exception as e:
-            print e
-            traceback.print_exc()
-            cur.close()
-            print 'Data insertion failed' 
+        if cnx is None:
+            return None
+        else:
+            cur = cnx.cursor()
+           
+            tup = zip(userID, timestamp, sessionid, data_series)
+            try:
+                cur.executemany("INSERT INTO UBrainData (ID, timestamp, SessionID, data) VALUES(%s, %s, %s, %s) " ,tup)
+                cnx.commit()
+            except Exception as e:
+                print e
+                traceback.print_exc()
+                cur.close()
+                print 'Data insertion failed' 
 
      # 
      # Helper method for Data fetching from a tablebased on a condition
@@ -161,18 +158,21 @@ class DBHelper:
      # Returns 1 if admin, returns 0 if not an admin
      #      
      def checkIfAdmin(self, userId, cnx):
-        select_user = ("SELECT * FROM AdminInfo WHERE AdminID = " + str(userId))
+        select_user = ("SELECT count(*) FROM AdminInfo WHERE AdminID = " + str(userId))
         print 'admin user query->', select_user
         cursor = cnx.cursor()
         try:
             cursor.execute(select_user)
             print 'admin check row count->', cursor.rowcount
-            if cursor.rowcount !=-1:
+            rowlist = list(cursor.fetchone())
+            if rowlist[0]>0:
                 return 1
             else:
                 return 0
            
-        except:
+        except Exception as e:
+            print e
+            traceback.print_exc()
             print ("Data Fetching failed!!!")
         cursor.close()
 
@@ -185,6 +185,7 @@ class DBHelper:
 def main():
     db = DBHelper()
     cnx = db.getConn()
+
     #results = db.fetchFromWhere('UserInfo', 'Name = \'ABC\'', cnx)
     cursor = cnx.cursor()
     dump1 = json.dumps([0,12,3,21,9,6])

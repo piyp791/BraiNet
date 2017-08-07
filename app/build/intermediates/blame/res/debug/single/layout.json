@@ -1,194 +1,194 @@
 [
     {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_screen_simple.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/activity_record.xml",
-        "source": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/layout/activity_record.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
-        "source": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/layout/activity_login.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_screen_content_include.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/activity_home.xml",
-        "source": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/layout/activity_home.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
         "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_list_menu_item_icon.xml"
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_expanded_menu_layout.xml"
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/bluetoothdevice_view.xml",
+        "source": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/layout/bluetoothdevice_view.xml"
     },
     {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/activity_register.xml",
-        "source": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/layout/activity_register.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/notification_template_lines_media.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/select_dialog_item_material.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/activity_search.xml",
-        "source": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/layout/activity_search.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/listitem_device.xml",
-        "source": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/layout/listitem_device.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/notification_template_media.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_search_view.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/bluetoothdevice_view.xml",
-        "source": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/layout/bluetoothdevice_view.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/layout/activity_main.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/first_view.xml",
-        "source": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/layout/first_view.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/main_view.xml",
-        "source": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/layout/main_view.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/notification_template_media_custom.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/notification_template_part_time.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_popup_menu_header_item_layout.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/activity_search_results.xml",
-        "source": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/layout/activity_search_results.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/dialog_select_device.xml",
-        "source": "/home/peps/Downloads/BrainNet-kk/app/src/main/res/layout/dialog_select_device.xml"
-    },
-    {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/activity_record.xml",
+        "source": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/layout/activity_record.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/activity_home.xml",
+        "source": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/main_view.xml",
+        "source": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/layout/main_view.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/activity_register.xml",
+        "source": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/dialog_select_device.xml",
+        "source": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/layout/dialog_select_device.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/activity_search.xml",
+        "source": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/layout/activity_search.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/activity_search_results.xml",
+        "source": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/layout/activity_search_results.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/first_view.xml",
+        "source": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/layout/first_view.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
         "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "/home/peps/Downloads/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/listitem_device.xml",
+        "source": "/home/peps/Downloads/group7/BrainNet-kk/app/src/main/res/layout/listitem_device.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/home/peps/Downloads/group7/BrainNet-kk/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/home/peps/.android/build-cache/6fd9793553f6254d72af06346d8befc4bf231258/output/res/layout/abc_action_menu_layout.xml"
     }
 ]

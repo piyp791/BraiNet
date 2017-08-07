@@ -35,6 +35,7 @@ public class RegisterActivity extends AppCompatActivity {
     EditText age;
     RadioGroup genderGrp;
     String maleOrFemale;
+    String failureMsg;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +47,12 @@ public class RegisterActivity extends AppCompatActivity {
         name = (EditText)findViewById(R.id.register_nameEdit);
         age = (EditText)findViewById(R.id.register_ageEdit);
         genderGrp = (RadioGroup)findViewById(R.id.register_genderGrp);
+
+
+
+        //clear fields
+        name.setText("");
+        age.setText("");
 
 
         genderGrp.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
@@ -72,11 +79,17 @@ public class RegisterActivity extends AppCompatActivity {
 
 
                 String nameVal = name.getText().toString();
-                int ageVal = Integer.parseInt(age.getText().toString());
+                String ageVal = age.getText().toString();
                 String genderVal = maleOrFemale;
                 //send the details to the server.
                 //once the id is retrieved from the server, then proceed to the next screen
-                User user = new User(nameVal, ageVal, genderVal);
+                Log.d(Constants.CUSTOM_LOG_TYPE, "name->" + nameVal + " age-->" + ageVal + " gender->" +genderVal);
+                if(nameVal==null || nameVal.isEmpty() ||
+                        ageVal==null || ageVal.isEmpty() ||
+                        genderVal==null || genderVal.isEmpty()){
+                    Log.d(Constants.CUSTOM_LOG_TYPE, "Empty field");
+                    Toast.makeText(RegisterActivity.this, "Fill all the fields first", Toast.LENGTH_SHORT).show();
+                }
 
                 JSONObject jsonObject = new JSONObject();
                 try{
@@ -93,6 +106,8 @@ public class RegisterActivity extends AppCompatActivity {
 
                 } catch (Exception ex) {
                     ex.printStackTrace();
+                    Log.d(Constants.CUSTOM_LOG_TYPE, "Exception ::" +ex.getMessage());
+                    Toast.makeText(RegisterActivity.this, "Exception ::" + ex.getMessage(), Toast.LENGTH_SHORT).show();
                 }
 
             }
@@ -132,6 +147,30 @@ public class RegisterActivity extends AppCompatActivity {
             }
 
             WebRequestHelper.get("/register/ " +jsonObj.toString(), null, new JsonHttpResponseHandler() {
+
+                @Override
+                public void onFailure(int statusCode, Header[] headers, final String responseString, Throwable throwable) {
+                    //super.onFailure(statusCode, headers, responseString, throwable);
+                    Log.d(Constants.CUSTOM_LOG_TYPE, "ON failure response-->" + responseString);
+                    RegisterActivity.this.runOnUiThread(new Runnable() {
+                        public void run() {
+                            Toast.makeText(RegisterActivity.this.getBaseContext(), "Failure Message-->" + responseString, Toast.LENGTH_LONG).show();
+                        }
+                    });
+                }
+
+                @Override
+                public void onRetry(int requestNum) {
+                    super.onRetry(requestNum);
+
+                    Log.d(Constants.CUSTOM_LOG_TYPE, "on retry->");
+                    RegisterActivity.this.runOnUiThread(new Runnable() {
+                        public void run() {
+                            Toast.makeText(RegisterActivity.this.getBaseContext(), "Couldn't connect with the server. Retrying...", Toast.LENGTH_LONG).show();
+                        }
+                    });
+                }
+
                 @Override
                 public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
                     // If the response is JSONObject instead of expected JSONArray
@@ -165,14 +204,20 @@ public class RegisterActivity extends AppCompatActivity {
 
                     }else{
                         //Toast.makeText(RegisterActivity.this, "Something wrong!!!", Toast.LENGTH_SHORT).show();
+                        try {
+                        failureMsg  = response.getString("message");
+                        }catch(Exception ex){
+                            ex.printStackTrace();
+                        }
                         RegisterActivity.this.runOnUiThread(new Runnable() {
                             public void run() {
-                                Toast.makeText(RegisterActivity.this.getBaseContext(), "Something wrong!!!", Toast.LENGTH_LONG).show();
+                                Toast.makeText(RegisterActivity.this.getBaseContext(), failureMsg, Toast.LENGTH_LONG).show();
                             }
                         });
                     }
 
                 }
+
             });
             return "";
         }
@@ -187,12 +232,6 @@ public class RegisterActivity extends AppCompatActivity {
             int genderId = genderGrp.getCheckedRadioButtonId();
 
 
-            if(nameVal==null || nameVal.isEmpty() ||
-                    ageVal==null || ageVal.isEmpty() ||
-                    genderId==-1){
-                Log.d(Constants.CUSTOM_LOG_TYPE, "Empty field");
-                Toast.makeText(RegisterActivity.this, "Fill all the fields first", Toast.LENGTH_SHORT).show();
-            }
 
 
         }

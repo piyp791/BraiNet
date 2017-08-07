@@ -79,11 +79,12 @@ def registerUSerInfo(name, age, gender):
     # DB initialization
     db = DBHelper()
     cnx = db.getConn()
-
-    # Insert User Info in the USerInfo table and get the unique user id
-    userID = db.insertIntoUserInfo(name, gender, age, cnx)
-
-    db.closeConn(cnx)
+    if cnx is None:
+        return -1
+    else:
+        # Insert User Info in the USerInfo table and get the unique user id
+        userID = db.insertIntoUserInfo(name, gender, age, cnx)
+        db.closeConn(cnx)
     return userID
 
 def registerUserBrainwave(data_series, userID, sessionID):

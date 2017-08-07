@@ -75,6 +75,7 @@ public class DemoActivity extends Activity {
 	String sessionID = "";
 	Intent searchIntent;
 	String isAdmin;
+	String failureMsg;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -117,8 +118,6 @@ public class DemoActivity extends Activity {
 			Log.i(TAG, "error:" + e.getMessage());
 			return;
 		}
-
-		Log.d(Constants.CUSTOM_LOG_TYPE, "oncreate");
 	}
 
 	private Button btn_start = null;
@@ -168,10 +167,11 @@ public class DemoActivity extends Activity {
 						//System.out.println("function started"+System.currentTimeMillis());
 						//start_new();
 						start();
+						System.out.println("function started?"+System.currentTimeMillis());
 					}
 				};
 				final ScheduledFuture<?> handle =
-						scheduler.scheduleAtFixedRate(task, 1, 120, TimeUnit.SECONDS);
+						scheduler.scheduleAtFixedRate(task, 1, Constants.RECORDING_TIMEOUT, TimeUnit.SECONDS);
 				scheduler.schedule(new Runnable() {
 					public void run() {
 						System.out.println("function stopped?"+System.currentTimeMillis());
@@ -199,8 +199,6 @@ public class DemoActivity extends Activity {
 							} catch (Exception ex) {
 								ex.printStackTrace();
 							}
-
-
 						}else{
 							//data not valid!!!!
 							//data not to be sent to the server
@@ -210,7 +208,7 @@ public class DemoActivity extends Activity {
 
 						Log.d(Constants.CUSTOM_LOG_TYPE, dataObj.getdataList().toString());
 					}
-				}, 120, SECONDS);
+				}, Constants.RECORDING_TIMEOUT, SECONDS);
 
 			}
 		});
@@ -270,7 +268,7 @@ public class DemoActivity extends Activity {
 
 		});
 
-		Log.d(Constants.CUSTOM_LOG_TYPE, "init view");
+		//Log.d(Constants.CUSTOM_LOG_TYPE, "init view");
 	}
 
 	private void start(){
@@ -287,14 +285,9 @@ public class DemoActivity extends Activity {
 			showToast("Please select device first!", Toast.LENGTH_SHORT);
 		}
 
-		Log.d(Constants.CUSTOM_LOG_TYPE, "start");
+		//Log.d(Constants.CUSTOM_LOG_TYPE, "start");
 	}
 
-
-	private void start_new(){
-
-		showToast("function called!", Toast.LENGTH_SHORT);
-	}
 
 	public void stop() {
 		if(tgStreamReader != null){
@@ -389,17 +382,17 @@ public class DemoActivity extends Activity {
 					break;
 				case ConnectionStates.STATE_ERROR:
 					Log.d(TAG,"Connect error, Please try again!");
+					showToast("Connect error, Please try again!", Toast.LENGTH_LONG);
 					break;
 				case ConnectionStates.STATE_FAILED:
 					Log.d(TAG,"Connect failed, Please try again!");
+					showToast("Connect error, Please try again!", Toast.LENGTH_LONG);
 					break;
 			}
 			Message msg = LinkDetectedHandler.obtainMessage();
 			msg.what = MSG_UPDATE_STATE;
 			msg.arg1 = connectionStates;
 			LinkDetectedHandler.sendMessage(msg);
-
-			Log.d(Constants.CUSTOM_LOG_TYPE, "callback");
 		}
 
 		@Override
@@ -556,7 +549,7 @@ public class DemoActivity extends Activity {
 
 		mBluetoothAdapter.startDiscovery();
 
-		Log.d(Constants.CUSTOM_LOG_TYPE, "oncreate");
+		//Log.d(Constants.CUSTOM_LOG_TYPE, "oncreate");
 	}
 
 	private void setUpDeviceListView(){
@@ -622,7 +615,7 @@ public class DemoActivity extends Activity {
 			dataObj = new SensorData();
 			Toast.makeText(DemoActivity.this, "instantiating new object", Toast.LENGTH_SHORT).show();*/
 
-			Log.d(Constants.CUSTOM_LOG_TYPE, "on item click");
+			//Log.d(Constants.CUSTOM_LOG_TYPE, "on item click");
 
 		}
 
@@ -648,7 +641,7 @@ public class DemoActivity extends Activity {
 			tgStreamReader.setTgStreamHandler(callback);
 		}
 
-		Log.d(Constants.CUSTOM_LOG_TYPE, "create steam reader");
+		//Log.d(Constants.CUSTOM_LOG_TYPE, "create steam reader");
 		return tgStreamReader;
 	}
 
@@ -812,14 +805,44 @@ public class DemoActivity extends Activity {
 
 					}else{
 
+						try {
+							failureMsg = response.getString("message");
+						}catch(Exception ex){
+							ex.printStackTrace();
+						}
+
 						DemoActivity.this.runOnUiThread(new Runnable() {
 							public void run() {
-								Toast.makeText(DemoActivity.this.getBaseContext(), "Something wrong!!!", Toast.LENGTH_LONG).show();
+								Toast.makeText(DemoActivity.this.getBaseContext(), failureMsg, Toast.LENGTH_LONG).show();
 							}
 						});
 					}
 
 				}
+
+				@Override
+				public void onFailure(int statusCode, Header[] headers, final String responseString, Throwable throwable) {
+					//super.onFailure(statusCode, headers, responseString, throwable);
+					Log.d(Constants.CUSTOM_LOG_TYPE, "ON failure response-->" + responseString);
+					DemoActivity.this.runOnUiThread(new Runnable() {
+						public void run() {
+							Toast.makeText(DemoActivity.this.getBaseContext(), "Failure Message-->" + responseString, Toast.LENGTH_LONG).show();
+						}
+					});
+				}
+
+				@Override
+				public void onRetry(int requestNum) {
+					super.onRetry(requestNum);
+
+					Log.d(Constants.CUSTOM_LOG_TYPE, "on retry->");
+					DemoActivity.this.runOnUiThread(new Runnable() {
+						public void run() {
+							Toast.makeText(DemoActivity.this.getBaseContext(), "Couldn't connect with the server. Retrying...", Toast.LENGTH_LONG).show();
+						}
+					});
+				}
+
 			});
 			return "";
 		}

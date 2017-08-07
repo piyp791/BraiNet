@@ -1,5 +1,12 @@
 # -*- coding: utf-8 -*-
 """
+Created on Mon Jul 10 10:52:07 2017
+
+@author: Shalmali
+"""
+
+# -*- coding: utf-8 -*-
+"""
 Created on Sat Jul 08 21:01:11 2017
 
 @author: Shalmali
@@ -13,6 +20,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import confusion_matrix
 from DBHelper import DBHelper
+import matplotlib.pyplot as plt
 
 def featureVecs(out, sample_size):
     #sample_size = 120
@@ -38,10 +46,11 @@ def FeatureExt(signal, signal_len):
     Temp = np.zeros((SR), dtype=float);
 
     for i in range(0, signal_len):
-        offset = (i-1)*SR
-        S_FFT[0:SR-1] = FFT(signal[offset:offset+SR-1])[:,0]
-        out[(i-1)*6:(i-1)*6+5] = S_FFT[7:12]
+        offset = (i)*SR
+        S_FFT[0:SR] = FFT(signal[offset:offset+SR])
+        out[(i)*6:(i)*6+5] = S_FFT[7:12]
 
+    #plot_graph(out)
     featureVectors = featureVecs(out, signal_len)
     return featureVectors
 
@@ -49,11 +58,12 @@ def FeatureExt(signal, signal_len):
 def FFT(signal):
     Fs = 512; # Sampling frequency
     T = 1 / Fs; # Sample time
-    L = len(signal[0]); # Length of signal
+    #L = len(signal[0]); # Length of signal
+    L = len(signal)
     #t = [0:L - 1]*T; # Time vector
     NFFT = 2 ^ nextpow2(L); # Next power of 2 from length of y
     f = Fs / 2 * np.linspace(0, 1, NFFT / 2 + 1);
-    Y = np.fft.fft(signal, NFFT) / L;
+    Y = np.fft.fft(signal, len(signal)) / L;
     # y = 2 * abs(Y(1:NFFT / 2 + 1));
     y = 2 * abs(Y);
     return y
@@ -67,17 +77,17 @@ def nextpow2(n):
 def NaiveBayes(train_arr, test_arr, train_size, test_size):
     #sample_size = 120
     labels = np.ones((train_size+test_size), dtype=float)
-    labels[train_size-1:train_size+test_size-1] = 0
+    labels[train_size:train_size+test_size-1] = 0
 
     ### Al data
     train_data = np.zeros((train_size+test_size,6), dtype=float)
-    train_data[1:train_size][:] = train_arr[0:train_size-1][:]
-    train_data[train_size+1:train_size+test_size][:] = test_arr[0:test_size-1][:]
+    train_data[0:train_size-1][:] = train_arr[0:train_size-1][:]
+    train_data[train_size:train_size+test_size-1][:] = test_arr[0:test_size-1][:]
     
     gnb = GaussianNB()
     y_pred = gnb.fit(train_data, labels).predict(train_data)
     mat = confusion_matrix(labels, y_pred)
-    print 'Confusion Matrix: ', mat
+    #print 'Confusion Matrix: ', mat
     
     if (mat[0][0] > mat[0][1]) and (mat[1][1] > mat[1][0]):
         authenticated = 0
@@ -88,18 +98,19 @@ def NaiveBayes(train_arr, test_arr, train_size, test_size):
 def MLP(train_arr, test_arr, train_size, test_size):
     #sample_size = 120
     labels = np.ones((train_size+test_size), dtype=float)
-    labels[train_size-1:train_size+test_size-1] = 0
+    
+    labels[train_size:train_size+test_size-1] = 0
 
     ### Al data
     train_data = np.zeros((train_size+test_size,6), dtype=float)
-    train_data[1:train_size][:] = train_arr[0:train_size-1][:]
-    train_data[train_size+1:train_size+test_size][:] = test_arr[0:test_size-1][:]
+    train_data[0:train_size-1][:] = train_arr[0:train_size-1][:]
+    train_data[train_size:train_size+test_size-1][:] = test_arr[0:test_size-1][:]
     
     mlp = MLPClassifier(solver='lbfgs', alpha=1e-5,
                      hidden_layer_sizes=(5, 2), random_state=1)
     y_pred = mlp.fit(train_data, labels).predict(train_data)
     mat = confusion_matrix(labels, y_pred)
-    print 'Confusion Matrix: ', mat
+    #print 'Confusion Matrix: ', mat
     
     if (mat[0][0] > mat[0][1]) and (mat[1][1] > mat[1][0]):
         authenticated = 0
@@ -110,17 +121,17 @@ def MLP(train_arr, test_arr, train_size, test_size):
 def SVM(train_arr, test_arr, train_size, test_size):
     #sample_size = 120
     labels = np.ones((train_size+test_size), dtype=float)
-    labels[train_size-1:train_size+test_size-1] = 0
+    labels[train_size:train_size+test_size-1] = 0
 
     ### Al data
     train_data = np.zeros((train_size+test_size,6), dtype=float)
-    train_data[1:train_size][:] = train_arr[0:train_size-1][:]
-    train_data[train_size+1:train_size+test_size][:] = test_arr[0:test_size-1][:]
+    train_data[0:train_size-1][:] = train_arr[0:train_size-1][:]
+    train_data[train_size:train_size+test_size-1][:] = test_arr[0:test_size-1][:]
     
-    svm = SVC()
+    svm = SVC(C=0.8, probability=True, gamma = 0.15)
     y_pred = svm.fit(train_data, labels).predict(train_data)
     mat = confusion_matrix(labels, y_pred)
-    print 'Confusion Matrix: ', mat
+    #print 'Confusion Matrix: ', mat
     
     if (mat[0][0] > mat[0][1]) and (mat[1][1] > mat[1][0]):
         authenticated = 0
@@ -131,17 +142,17 @@ def SVM(train_arr, test_arr, train_size, test_size):
 def SGD(train_arr, test_arr, train_size, test_size):
     #sample_size = 120
     labels = np.ones((train_size+test_size), dtype=float)
-    labels[train_size-1:train_size+test_size-1] = 0
+    labels[train_size:train_size+test_size-1] = 0
 
     ### Al data
     train_data = np.zeros((train_size+test_size,6), dtype=float)
-    train_data[1:train_size][:] = train_arr[0:train_size-1][:]
-    train_data[train_size+1:train_size+test_size][:] = test_arr[0:test_size-1][:]
+    train_data[0:train_size-1][:] = train_arr[0:train_size-1][:]
+    train_data[train_size:train_size+test_size-1][:] = test_arr[0:test_size-1][:]
     
     sgd = SGDClassifier(loss="hinge", penalty="l2")
     y_pred = sgd.fit(train_data, labels).predict(train_data)
     mat = confusion_matrix(labels, y_pred)
-    print 'Confusion Matrix: ', mat
+    #print 'Confusion Matrix: ', mat
     
     if (mat[0][0] > mat[0][1]) and (mat[1][1] > mat[1][0]):
         authenticated = 0
@@ -154,31 +165,34 @@ def main():
     cnx = db.getConn()
     
     # Fetch training data
-    cursor= db.fetchColumnFromWhere("UBrainData", "data", "ID = 14", cnx)
+    cursor= db.fetchColFromWhere("UBrainData", "data", "ID = 18", cnx)
     data = cursor.fetchall()
-    if len(data) < 61440:
+    f = int(len(data) / 512)
+    data = data[0:512*f]
+    data = np.asarray(data).reshape(len(data))
+    
+    train_size = int(len(data)/512)
+    featureVectors_train = FeatureExt(data, train_size)
+    
+    #test_ar_id = [16]
+    test_ar_id = [1, 2, 5, 11, 12, 13, 14, 15, 16, 17, 18, 37]
+    for id in test_ar_id:
+
+        # Fetch test data
+        print '1 - ' + str(id)
+        cursor= db.fetchColFromWhere("UBrainData", "data", "ID = " + str(id), cnx)
+        data = cursor.fetchall()
         f = int(len(data) / 512)
         data = data[0:512*f]
         data = np.asarray(data).reshape(len(data))
-    
-    train_size = len(data)/512    
-    featureVectors_train = featureVecs(data, train_size)
-    
-    # Fetch test data
-    cursor= db.fetchColumnFromWhere("UBrainData", "data", "ID = 5", cnx)
-    data = cursor.fetchall()
-    if len(data) < 61440:
-        f = int(len(data) / 512)
-        data = data[0:512*f]
-        data = np.asarray(data).reshape(len(data))
-    
-    test_size = len(data)/512
-    featureVectors_test = featureVecs(data, test_size)
-    
-    print 'NB', NaiveBayes(featureVectors_train, featureVectors_test, train_size, test_size)
-    print 'MLP',MLP(featureVectors_train, featureVectors_test, train_size, test_size)
-    print 'SVM',SVM(featureVectors_train, featureVectors_test, train_size, test_size)
-    print 'SGD',SGD(featureVectors_train, featureVectors_test, train_size, test_size)
+        
+        test_size = len(data)/512
+        featureVectors_test = FeatureExt(data, test_size)
+        
+        print 'NB', NaiveBayes(featureVectors_train, featureVectors_test, train_size, test_size)
+        print 'mlp',MLP(featureVectors_train, featureVectors_test, train_size, test_size)
+        print 'svm',SVM(featureVectors_train, featureVectors_test, train_size, test_size)
+        print 'sgd',SGD(featureVectors_train, featureVectors_test, train_size, test_size)
 
 
 #
@@ -195,17 +209,24 @@ def authenticateML(data, id):
     DBdata = DBdata[0:512*f]
     DBdata = np.asarray(DBdata).reshape(len(DBdata))
     train_size = len(DBdata)/512    
-    featureVectors_train = featureVecs(DBdata, train_size)
+    featureVectors_train = FeatureExt(DBdata, train_size)
      
     f = int(len(data) / 512)
     data = data[0:512*f]
     data = np.asarray(data).reshape(len(data))
     test_size = len(data)/512    
-    featureVectors_test = featureVecs(data, test_size)
-    authenticated = SVM(featureVectors_train, featureVectors_test, train_size, test_size)
+    featureVectors_test = FeatureExt(data, test_size)
+    authenticated = NaiveBayes(featureVectors_train, featureVectors_test, train_size, test_size)
     
     return authenticated
 
+
+def plot_graph(Y):
+    print 'graph plot called....'
+    fig, ax = plt.subplots()
+    ax.plot(Y)
+    plt.show()
+
 if __name__ == '__main__':
     a=0
-    #main()
+    main()
