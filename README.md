@@ -1,6 +1,6 @@
 # BraiNet
 
-Android App for demonstratng authentication using Brainwave (EEG ) signals
+Android App for demonstratng authentication using Brainwave (EEG ) signals, created for the class project for CSE-535 Mobile Computing course.
 
 ## Project motovation and set up details
 
