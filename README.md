@@ -1,4 +1,4 @@
-# BrainNet
+# BraiNet
 
 Android App for demonstratng authentication using Brainwave (EEG ) signals
 
